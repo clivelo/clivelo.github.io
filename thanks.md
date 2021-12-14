@@ -4,4 +4,4 @@ indexing: false
 sitemap: false
 ---
 
-Thanks for getting in touch! We'll respond as soon as we can.
+Thanks for viewing my page! Feel free to contact me any time!
