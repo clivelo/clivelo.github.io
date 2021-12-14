@@ -124,9 +124,9 @@ navigation_header:
 - title: Home
   url: /
 - title: CV
-  url: /CV/
-- title: Element
-  url: /element/
+  url: /cv/
+- title: Elements
+  url: /elements/
 - title: Blog
   url: /blog/
 - title: Categories
