@@ -125,6 +125,10 @@ navigation_header:
   url: /
 - title: CV
   url: /cv/
+- title: Projects
+  url: /projects/
+#- title: Interests
+#  url: /interests/
 - title: Elements
   url: /elements/
 - title: Blog
