@@ -1,4 +1,5 @@
 ---
+title:
 feature_text: |
   ## Curriculum Vitae
 excerpt: "My CV"
