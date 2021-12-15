@@ -9,4 +9,4 @@ excerpt: "Hey, I'm Clive—an AI enthusiast with a Psychology background from Ho
 
 Hey, I'm Clive—an AI enthusiast with a Psychology background from Hong Kong. My goal is to integrate AI with human psychology and to use neural networks to model the human brain.
 
-{% include button.html text="GitHub" icon="github" link="https://github.com/clivelo" color="#0366d6" %}
+{% include button.html text="GitHub" icon="github" link="https://github.com/clivelo" color="#333333" %} {% include button.html text="LinkedIn" icon="linkedin" link="https://www.linkedin.com/in/clivelo-kw" color="#0077b5" %}
