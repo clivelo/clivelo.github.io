@@ -44,10 +44,8 @@ author: CliveLo # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Clive Lo # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-#    - https://twitter.com/DavidDarnes
-#    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/clivelo-kw
     - https://github.com/clivelo
+    - https://www.linkedin.com/in/clivelo-kw
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
