@@ -6,7 +6,7 @@ aside: true
 
 <br />
 
-### Education
+## Education
 
 <p class="cv_title"><b>MPhil in Psychology</b></p>
 <font size="2" color="#c9cfd6">The Chinese University of Hong Kong @ Hong Kong &nbsp; &mdash; &nbsp; 09/2020 &ndash; Current</font>
@@ -24,7 +24,7 @@ aside: true
 <br />
 <br />
 
-### Employment
+## Employment
 
 <p class="cv_title"><b>Research Assistant</b></p>
 <font size="2" color="#c9cfd6">CUHK Department of Psychology @ Hong Kong &nbsp; &mdash; &nbsp; 05/2019 &ndash; 09/2020</font>
@@ -37,4 +37,4 @@ aside: true
 <br />
 <br />
 
-### Publications
+## Publications
