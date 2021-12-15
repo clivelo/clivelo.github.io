@@ -438,6 +438,9 @@ pre code {
   hr {
     width: 100%;
   }
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
   li {
     > p {
       padding: 0;
