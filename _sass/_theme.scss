@@ -437,9 +437,8 @@ pre code {
   }
   hr {
     width: 100%;
-  }
-  hr.solid {
-    border-top: 3px solid #bbb;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   li {
     > p {
