@@ -141,8 +141,7 @@ navigation_header:
   url: /credits/
 
 navigation_footer:
-- title: Adopted the Alembic theme
-  url: https://darn.es
+- title: Made with <3
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: 
