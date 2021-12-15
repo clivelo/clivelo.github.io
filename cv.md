@@ -6,7 +6,7 @@ aside: true
 
 ### Education
 <b>MPhil in Psychology</b>\
-<sub><sup>The Chinese University of Hong Kong @ Hong Kong &nbsp; &mdash; &nbsp; 09/2020 &ndash; Current</sup></sub>
+<font size="1">The Chinese University of Hong Kong @ Hong Kong &nbsp; &mdash; &nbsp; 09/2020 &ndash; Current</font>
 
 <b>BSocSc in Psychology</b>\
 <sub><sup>Hong Kong Baptist University @ Hong Kong &nbsp; &mdash; &nbsp; 09/2016 &ndash; 07/2018</sup></sub>\
