@@ -3,7 +3,7 @@ title: About Me
 feature_text: |
   ## Clive LO
   An AI enthusiast with a background in cognitive neuroscience and psychology
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "https://picsum.photos/1300/600?image=180"
 excerpt: "Hey, I'm Clive—an AI enthusiast with a Psychology background from Hong Kong."
 ---
 
