@@ -68,7 +68,7 @@ collections:
     feature_text: |
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
-    permalink: "/_blog/"
+    permalink: "/:collection/:posts/"
 
   projects:
     title: Projects
@@ -76,7 +76,7 @@ collections:
     feature_text: |
       ## Projects
     feature_image: "https://picsum.photos/id/565/2600/800?blur=3"
-    permalink: "/_projects/"
+    #permalink: "/_projects/"
 
 # 6. Jekyll collections settings
 defaults:
