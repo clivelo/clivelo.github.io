@@ -68,7 +68,6 @@ collections:
     feature_text: |
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
-    permalink: "/_posts/_blog/"
 
   projects:
     title: Projects
@@ -76,7 +75,6 @@ collections:
     feature_text: |
       ## Projects
     feature_image: "https://picsum.photos/id/565/2600/800?blur=3"
-    #permalink: "/_projects/"
 
 # 6. Jekyll collections settings
 defaults:
@@ -87,7 +85,7 @@ defaults:
       image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
-      path: ""
+      path: "_posts/_blog"
       type: "posts"
     values:
       layout: post # Set the default layout for posts
@@ -99,7 +97,7 @@ defaults:
       layout: page # Set the default layout for pages
   -
     scope:
-      path: ""
+      path: "_posts/_projects"
       type: "projects"
     values:
       layout: projects # Set the default layout for projects
