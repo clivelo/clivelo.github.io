@@ -73,7 +73,7 @@ collections:
     output: true
     feature_text: |
       ## Projects
-    feature_image: "https://picsum.photos/id/565/2600/800?blur=1"
+    feature_image: "https://picsum.photos/id/565/2600/800?blur=2"
 
 # 6. Jekyll collections settings
 defaults:
