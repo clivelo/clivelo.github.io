@@ -480,6 +480,7 @@ pre code {
   grid-gap: 30px;
   background-color: #fff;
   color: #444;
+  justify-content: flex-start;
 }
 
 .box {
@@ -487,5 +488,5 @@ pre code {
   color: #fff;
   border-radius: 5px;
   padding: 20px;
-  font-size: 150%;
+  font-size: 100%;
 }
