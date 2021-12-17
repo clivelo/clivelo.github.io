@@ -35,8 +35,9 @@ plugins:
 - jemoji
 
 # 3. Gem settings
+permalink: /:collection/:title/
 paginate: 5 # posts per page
-paginate_path: blog/page:num # page directory
+#paginate_path: blog/page:num # page directory
 #jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 #twitter:
 #  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
