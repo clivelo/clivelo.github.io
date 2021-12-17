@@ -86,7 +86,7 @@ defaults:
       image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
-      path: "_posts"
+      path: ""
       type: "posts"
     values:
       layout: post # Set the default layout for posts
@@ -98,7 +98,7 @@ defaults:
       layout: page # Set the default layout for pages
   -
     scope:
-      path: "_projects"
+      path: ""
       type: "projects"
     values:
       layout: projects # Set the default layout for projects
