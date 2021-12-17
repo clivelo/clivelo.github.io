@@ -68,6 +68,13 @@ collections:
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
 
+  projects:
+    title: Projects
+    output: true
+    feature_text: |
+      ## Projects
+    feature_image: "https://picsum.photos/id/565/2600/800"
+
 # 6. Jekyll collections settings
 defaults:
   -
