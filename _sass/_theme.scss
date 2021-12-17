@@ -468,6 +468,12 @@ pre code {
   }
 }
 
+.content_project {
+  @include breakpoint(break-1) {
+    width: 92%;
+  }
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
