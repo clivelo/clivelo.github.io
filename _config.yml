@@ -27,7 +27,6 @@ plugins:
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate
-- jekyll-paginate-multiple
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-feed
@@ -36,14 +35,8 @@ plugins:
 - jemoji
 
 # 3. Gem settings
-paginate_multiple: # jekyll-paginate-multiple
-    - paginate: 5 # posts per page
-      blog/page:num # page directory
-      sub_dir: "/blog" #sub-directory
-    - paginate: 5
-      blog/projects/page:num
-      sub_dir: "/projects"
-
+paginate: 5 # posts per page
+paginate_path: blog/page:num # page directory
 #jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 #twitter:
 #  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
