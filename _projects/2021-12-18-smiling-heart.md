@@ -1,4 +1,5 @@
 ---
+id: "0000"
 title: A Smiling Heart
 categories:
 - JavaScript
