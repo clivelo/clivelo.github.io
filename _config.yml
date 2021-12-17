@@ -38,7 +38,7 @@ plugins:
 paginate_multiple: # jekyll-paginate-multiple
     - paginate: 5 # posts per page
       blog/page:num # page directory
-      sub_dir: "/blog"
+      sub_dir: "/blog" #sub-directory
     - paginate: 5
       blog/projects/page:num
       sub_dir: "/projects"
