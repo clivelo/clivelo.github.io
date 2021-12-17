@@ -2,6 +2,6 @@
 title: Projects
 feature_text: |
   Project showcase
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_image: "https://picsum.photos/id/421/1300/400?blur=3"
 excerpt: "Showcase of projects"
 ---
