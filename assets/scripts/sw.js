@@ -12,6 +12,9 @@ const buildContentBlob = () => {
     {%- for post in site.posts limit: 10 -%}
       "{{ post.url | relative_url }}",
     {%- endfor -%}
+    {%- for project in site.projects limit: 10 -%}
+      "{{ project.url | relative_url }}",
+    {%- endfor -%}
     {%- for page in site.pages -%}
       {%- unless page.url contains 'sw.js' or page.url contains '404.html' -%}
         "{{ page.url | relative_url }}",
