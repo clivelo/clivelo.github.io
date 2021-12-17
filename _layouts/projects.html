@@ -10,8 +10,8 @@ layout: default
 
     <article class="article  article--page  typeset">
 
-      {% if paginator.posts %}
-        {% assign collectiondata = site.collections | where: "label", posts.collectionpage | first %}
+      {% if paginator.projects %}
+        {% assign collectiondata = site.collections | where: "label", projects.collectionpage | first %}
         <h1>{{ collectiondata.title }}</h1>
         {{ collectiondata.description | markdownify }}
 
