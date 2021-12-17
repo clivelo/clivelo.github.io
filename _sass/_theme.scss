@@ -470,14 +470,14 @@ pre code {
 
 .content_project {
   @include breakpoint(break-1) {
-    width: 92%;
+    width: 100%;
   }
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 30px;
   background-color: #fff;
   color: #444;
 }
