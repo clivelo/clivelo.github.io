@@ -12,7 +12,7 @@ aside: true
 
 <p class="cv_title"><b>MPhil in Psychology</b></p>
 <font size="3" color="#adb8c2">The Chinese University of Hong Kong @ Hong Kong &nbsp; &mdash; &nbsp; 09/2020 to Current</font>
-<p class="cv_text">My thesis was on how individual preference of touch velocity pleasantness is manifested in neural activity. I collected electroencephalogram (EEG) data and analyzed them using MATLAB and EEGLAB plugin. I also took on teaching assistant duties on every semester, which include teaching tutorials, grading assignments and exams, and responding to students' inquires.</p>
+<p class="cv_text">My thesis was on how individual preference of touch velocity pleasantness is manifested in neural activity. I collected electroencephalogram (EEG) data and analyzed them on MATLAB with the EEGLAB plugin. I also took on teaching assistant duties every semester, which include teaching tutorials, grading assignments and exams, and responding to students' inquires.</p>
 
 <p class="cv_title"><b>BSocSc in Psychology</b></p>
 <font size="3" color="#adb8c2">Hong Kong Baptist University @ Hong Kong &nbsp; &mdash; &nbsp; 09/2016 to 07/2018<br>
