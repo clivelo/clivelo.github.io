@@ -112,7 +112,7 @@ logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Portfolio and coding blog of Clive LO." # Site description and default description, also used in jekyll-seo-tag
 url: "https://clivelo.me" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-# repo: "https://github.com/daviddarnes/alembic"
+repo: "https://github.com/clivelo/clivelo.github.io"
 email: "clivelo.kw@gmail.com"
 disqus: "clivelo" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
