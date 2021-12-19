@@ -505,12 +505,11 @@ pre code {
     -webkit-transform: scale(1.5); /* Safari and Chrome */
     -o-transform: scale(1.5); /* Opera */
   }
-  .centered {
+  p.centered {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    text-align: center;
   }
 }
