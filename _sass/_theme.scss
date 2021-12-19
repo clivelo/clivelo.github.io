@@ -491,6 +491,13 @@ pre code {
   padding: 2px;
   margin: 0 auto;
   font-size: 100%;
+}
+
+.box:hover {
+  background: $hoverColour;
+}
+
+.img_container {
   display: inline-block; /* change the default display type to inline-block */
   overflow: hidden;      /* hide the overflow */
   img.opaque:hover {
@@ -509,8 +516,4 @@ pre code {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-}
-
-.box:hover {
-  background: $hoverColour;
 }
