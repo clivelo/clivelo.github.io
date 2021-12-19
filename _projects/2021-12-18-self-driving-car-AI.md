@@ -1,5 +1,5 @@
 ---
-id: "0002"
+id: 2
 title: Self-Driving Car AI
 timg: "../assets/timg/0002.jpg"
 categories:

@@ -1,5 +1,5 @@
 ---
-id: "0001"
+id: 0
 title: 2D Raycasting
 timg: "../assets/timg/0001.jpg"
 categories:
