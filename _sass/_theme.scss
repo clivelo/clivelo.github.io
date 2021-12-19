@@ -491,34 +491,33 @@ pre code {
   padding: 2px;
   margin: 0 auto;
   font-size: 100%;
-}
-
-.img_container {
-  display: inline-block; /* change the default display type to inline-block */
-  overflow: hidden;      /* hide the overflow */
-  width: auto;
-  height: auto
-  position: relative;
-  img.opaque {
-    opacity: 1.0;
-    display: block;
-  }
-  img.opaque:hover {
-    opacity: 0.4;
-    transition: all .4s ease;
-    vertical-align: middle;
-    transform: scale(1.5);
-    -ms-transform: scale(1.5); /* IE 9 */
-    -moz-transform: scale(1.5); /* Firefox */
-    -webkit-transform: scale(1.5); /* Safari and Chrome */
-    -o-transform: scale(1.5); /* Opera */
-  }
-  p.centered {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: center;
+  .img_container {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+    width: auto;
+    height: auto
+    position: relative;
+    img.opaque {
+      opacity: 1.0;
+      display: block;
+    }
+    img.opaque:hover {
+      opacity: 0.4;
+      transition: all .4s ease;
+      vertical-align: middle;
+      transform: scale(1.5);
+      -ms-transform: scale(1.5); /* IE 9 */
+      -moz-transform: scale(1.5); /* Firefox */
+      -webkit-transform: scale(1.5); /* Safari and Chrome */
+      -o-transform: scale(1.5); /* Opera */
+    }
+    p.centered {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+    }
   }
 }
