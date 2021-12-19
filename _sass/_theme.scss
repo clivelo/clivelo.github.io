@@ -485,7 +485,8 @@ pre code {
 
 .box {
   //background-color: $linkColour;
-  color: $white;
+  color: $bodyColour;
+  background-color: $white;
   border-radius: 1px;
   padding: 2px;
   font-size: 100%;
