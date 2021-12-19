@@ -466,6 +466,12 @@ pre code {
   p.cv_text {
     padding-top: 0;
   }
+  img.opaque {
+    opacity: 0.4;
+  }
+  img.opaque:hover {
+    opacity: 1.0;
+  }
 }
 
 .content_project {
