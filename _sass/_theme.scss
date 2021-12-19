@@ -487,6 +487,8 @@ pre code {
   //background-color: $linkColour;
   color: $bodyColour;
   background-color: $white;
+  width: auto;
+  height: auto;
   border-radius: 1px;
   padding: 2px;
   margin: 0 auto;
@@ -509,9 +511,10 @@ pre code {
   }
   p.centered {
     position: relative;
-    display: inline-table;
     top: 0;
     left: 0;
+    width: auto;
+    height: auto;
     text-align: center;
     vertical-align: middle;
     font-size: 70%;
