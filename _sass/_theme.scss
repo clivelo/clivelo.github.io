@@ -496,6 +496,7 @@ pre code {
 .img_container {
   width: auto;
   height: auto;
+  position: relative;
   display: inline-block;
   overflow: hidden;
   img.opaque {
