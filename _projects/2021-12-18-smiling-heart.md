@@ -1,6 +1,7 @@
 ---
-id: "0000"
+id: 0
 title: A Smiling Heart
+timg: "assets/timg/0000.jpg"
 categories:
 - JavaScript
 excerpt: |
