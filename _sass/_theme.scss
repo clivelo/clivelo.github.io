@@ -500,6 +500,8 @@ pre code {
 .img_container {
   display: inline-block; /* change the default display type to inline-block */
   overflow: hidden;      /* hide the overflow */
+  max-width: 100%;
+  max-height: 100%;
   img.opaque:hover {
     opacity: 0.4;
     transition: all .4s ease;
@@ -514,6 +516,5 @@ pre code {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
   }
 }
