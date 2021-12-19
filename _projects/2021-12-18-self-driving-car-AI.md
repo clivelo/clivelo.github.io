@@ -1,7 +1,7 @@
 ---
-id: "0001"
+id: "0002"
 title: Self-Driving Car AI
-timg: "../assets/timg/0001.jpg"
+timg: "../assets/timg/0002.jpg"
 categories:
 - JavaScript
 excerpt: |
