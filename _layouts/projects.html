@@ -11,7 +11,12 @@ layout: default
 
       {% assign sorted_projects = site.projects | sort: 'id' | reverse %}
       {% for proj in sorted_projects %}
-        <div class="box"><a href={{proj.url}}><img class="opaque" src={{proj.timg}} /></a></div>
+        <div class="box">
+          <a href={{proj.url}}>
+            <img class="opaque" src={{proj.timg}} />
+            <h2>{{proj.title}}</h2>
+          </a>
+        </div>
       {% endfor %}
 
     </div>
