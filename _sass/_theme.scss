@@ -489,11 +489,16 @@ pre code {
   border-radius: 1px;
   padding: 0px;
   font-size: 100%;
-  img.opaque {
-    opacity: 0.4;
-  }
   img.opaque:hover {
-    opacity: 1.0;
+    opacity: 0.4;
+    transition: all .4s ease;
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
   }
 }
 
