@@ -487,12 +487,15 @@ pre code {
   //background-color: $linkColour;
   color: $bodyColour;
   background-color: $white;
-  width: auto;
-  height: auto;
   border-radius: 1px;
   padding: 2px;
   margin: 0 auto;
   font-size: 100%;
+}
+
+.img_container {
+  width: auto;
+  height: auto;
   display: inline-block;
   overflow: hidden;
   img.opaque {
