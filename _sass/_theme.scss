@@ -492,6 +492,7 @@ pre code {
   img.opaque:hover {
     opacity: 0.4;
     transition: all .4s ease;
+    vertical-align: middle;
     transform:scale(1.5);
     -ms-transform:scale(1.5); /* IE 9 */
     -moz-transform:scale(1.5); /* Firefox */
@@ -499,6 +500,7 @@ pre code {
     -o-transform:scale(1.5); /* Opera */
     display: inline-block; /* change the default display type to inline-block */
     overflow: hidden;      /* hide the overflow */
+
   }
 }
 
