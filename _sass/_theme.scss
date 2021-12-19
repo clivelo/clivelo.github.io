@@ -478,19 +478,19 @@ pre code {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 30px;
-  background-color: #fff;
-  color: #444;
+  background-color: $white;
+  color: $linkColour;
   justify-content: flex-start;
 }
 
 .box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
+  background-color: $focusColour;
+  color: $white;
+  border-radius: 2px;
   padding: 20px;
   font-size: 100%;
 }
 
 .box:hover {
-  background: #D3D3D3;
+  background: $hoverColour;
 }
