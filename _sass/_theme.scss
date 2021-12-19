@@ -501,15 +501,14 @@ pre code {
     -webkit-transform:scale(1.5); /* Safari and Chrome */
     -o-transform:scale(1.5); /* Opera */
   }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .box:hover {
   background: $hoverColour;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
