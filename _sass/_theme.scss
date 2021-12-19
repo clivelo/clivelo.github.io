@@ -502,7 +502,7 @@ pre code {
     -o-transform:scale(1.5); /* Opera */
   }
   .centered {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
