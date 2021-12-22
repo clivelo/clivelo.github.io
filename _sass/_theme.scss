@@ -499,9 +499,12 @@ pre code {
   position: relative;
   display: inline-block;
   overflow: hidden;
+  padding: 2px 16px;
   img.opaque {
     opacity: 1.0;
     display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
   }
   img.opaque:hover {
     opacity: 0.4;
@@ -512,6 +515,7 @@ pre code {
     -moz-transform: scale(1.5); /* Firefox */
     -webkit-transform: scale(1.5); /* Safari and Chrome */
     -o-transform: scale(1.5); /* Opera */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   p.centered {
     position: absolute;
