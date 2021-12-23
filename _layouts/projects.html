@@ -6,6 +6,7 @@ layout: default
 
 <main class="main  container">
 
+<<<<<<< HEAD
   <div class="content">
 
     <article class="article  article--page  typeset">
@@ -25,6 +26,25 @@ layout: default
 
     {% include project-list.html %}
 
+=======
+  <div class="content_project">
+    <div class="wrapper">
+
+      {% assign sorted_projects = site.projects | sort: 'id' | reverse %}
+      {% for proj in sorted_projects %}
+      <div class="box">
+        <div class="img_container">
+          <a href={{proj.url}}>
+            <img class="opaque" src={{proj.timg}} />
+            <p class="centered">{{proj.title}}</p>
+          </a>
+        </div>
+        {{proj.description}}
+      </div>
+      {% endfor %}
+
+    </div>
+>>>>>>> 3c352186a02e8352f63778840495a84b77da1619
   </div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
