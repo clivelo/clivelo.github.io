@@ -5,28 +5,6 @@ layout: default
 {% include site-header.html %}
 
 <main class="main  container">
-
-<<<<<<< HEAD
-  <div class="content">
-
-    <article class="article  article--page  typeset">
-
-      {% if paginator.projects %}
-        {% assign collectiondata = site.collections | where: "label", projects.collectionpage | first %}
-        <h1>{{ collectiondata.title }}</h1>
-        {{ collectiondata.description | markdownify }}
-
-      {% else %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-
-      {% endif %}
-
-    </article>
-
-    {% include project-list.html %}
-
-=======
   <div class="content_project">
     <div class="wrapper">
 
@@ -44,7 +22,6 @@ layout: default
       {% endfor %}
 
     </div>
->>>>>>> 3c352186a02e8352f63778840495a84b77da1619
   </div>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
