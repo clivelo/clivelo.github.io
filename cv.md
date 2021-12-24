@@ -44,3 +44,4 @@ aside: true
 <p class="cv_title">Schirmer, A., Chiu, M. H., <b>Lo, C.</b>, Feng, Y. J., & Penney, T. B. (2020). Angry, old, male – and trustworthy? How expressive and person voice characteristics shape listener trust. <i>PLOS ONE</i>, <i>15</i>(5). <a href="https://doi.org/10.1371/journal.pone.0232431">https://doi.org/10.1371/journal.pone.0232431</a></p>
 
 <br />
+## Programming Languages and Tools
