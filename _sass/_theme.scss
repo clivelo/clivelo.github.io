@@ -529,7 +529,8 @@ pre code {
     text-align: center;
     line-height: 50%;
     font-size: 100%;
-    color: $bodyColour
+    color: $bodyColour;
+    pointer-events: none;
   }
 }
 
