@@ -492,12 +492,12 @@ pre code {
   padding: 0px;
   margin: 5px;
   font-size: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   transition: all .3s ease;
 }
 
 .box:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.4);
 }
 
 .img_container {
