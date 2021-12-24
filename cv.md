@@ -4,7 +4,7 @@ feature_text: |
   ## Curriculum Vitae
 layout: page
 excerpt: "My CV"
-feature_image: "https://picsum.photos/1300/400?image=873"
+feature_image: "https://picsum.photos/1300/400?image=465"
 aside: true
 ---
 
