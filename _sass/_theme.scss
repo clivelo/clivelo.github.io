@@ -499,6 +499,10 @@ pre code {
 .box:hover {
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
   transform: scale(1.05);
+  -ms-transform: scale(1.05); /* IE 9 */
+  -moz-transform: scale(1.05); /* Firefox */
+  -webkit-transform: scale(1.05); /* Safari and Chrome */
+  -o-transform: scale(1.05); /* Opera */
 }
 
 .img_container {
