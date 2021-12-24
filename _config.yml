@@ -61,7 +61,7 @@ timezone: Asia/Hong_Kong # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Blog Posts # Needed for Siteleaf
+    title: Posts # Needed for Siteleaf
     output: true
     #description: "My thoughts and ideas" # The post list page content
     feature_text: |
