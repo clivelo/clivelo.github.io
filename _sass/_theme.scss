@@ -513,31 +513,6 @@ pre code {
   display: inline-block;
   overflow: hidden;
   border-radius: 5px 5px 0 0;
-  img.opaque {
-    opacity: 1.0;
-    display: block;
-  }
-  img.opaque:hover {
-    opacity: 0.2;
-    transition: all .4s ease;
-    vertical-align: middle;
-    transform: scale(1.5);
-    -ms-transform: scale(1.5); /* IE 9 */
-    -moz-transform: scale(1.5); /* Firefox */
-    -webkit-transform: scale(1.5); /* Safari and Chrome */
-    -o-transform: scale(1.5); /* Opera */
-  }
-  p.centered {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    line-height: 50%;
-    font-size: 100%;
-    color: $bodyColour;
-    pointer-events: none;
-  }
 }
 
 .text_container {
