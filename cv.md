@@ -2,7 +2,7 @@
 title: CV
 feature_text: |
   ## Curriculum Vitae
-#layout: page-notitle
+layout: page
 excerpt: "My CV"
 feature_image: "https://picsum.photos/1300/400?image=873"
 aside: true
