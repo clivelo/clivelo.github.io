@@ -11,4 +11,4 @@ Hey, I'm Clive—an AI enthusiast with a Psychology background from Hong Kong. M
 
 Take a look at my projects and coding blogs! Feel free to bookmark this website if you are interested in what I do! Wish you a nice day! :robot:
 
-{% include button.html text="GitHub" icon="github" link="https://github.com/clivelo" color="#333333" %} {% include button.html text="LinkedIn" icon="linkedin" link="https://www.linkedin.com/in/clivelo-kw" color="#0077b5" %} {% include button.html text="Email" icon="Email" link="mailto:clivelo.kw@gmail.com" %}
+{% include button.html text="GitHub" icon="github" link="https://github.com/clivelo" color="#333333" %} &nbsp; {% include button.html text="LinkedIn" icon="linkedin" link="https://www.linkedin.com/in/clivelo-kw" color="#0077b5" %} &nbsp; {% include button.html text="Email" icon="Mail" link="mailto:clivelo.kw@gmail.com" %}
