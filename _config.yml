@@ -74,7 +74,7 @@ collections:
     output: true
     feature_text: |
       ## Projects
-    feature_image: "https://picsum.photos/id/55/2600/800?blur=3"
+    feature_image: "https://picsum.photos/id/55/2560/600?blur=3"
     permalink: "/:collection/:year/:month/:day/:title/"
 
 # 6. Jekyll collections settings
