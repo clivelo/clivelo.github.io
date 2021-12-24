@@ -155,6 +155,7 @@ navigation_header:
 
 navigation_footer:
 - title: Made with <3
+  url: https://clivelo.me/projects/2021/12/17/smiling-heart/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   GitHub: https://github.com/clivelo
