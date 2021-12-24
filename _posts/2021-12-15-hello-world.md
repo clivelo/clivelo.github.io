@@ -3,7 +3,7 @@ title: Hello World
 categories:
 - General
 excerpt: |
-  Hello world! :earth_asia:
+  Hello world! :earth_asia:<br>
   Feel free to bookmark this site for updates about my projects!
 ---
 
