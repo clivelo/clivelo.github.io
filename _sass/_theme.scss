@@ -507,20 +507,7 @@ pre code {
   display: inline-block;
   overflow: hidden;
   border-radius: 5px 5px 0 0;
-  img.opaque {
-    opacity: 1.0;
-    display: block;
-  }
-  img.opaque:hover {
-    opacity: 0.2;
-    transition: all .4s ease;
-    vertical-align: middle;
-    transform: scale(1.5);
-    -ms-transform: scale(1.5); /* IE 9 */
-    -moz-transform: scale(1.5); /* Firefox */
-    -webkit-transform: scale(1.5); /* Safari and Chrome */
-    -o-transform: scale(1.5); /* Opera */
-  }
+  opacity: 1.0;
   p.centered {
     position: absolute;
     top: 50%;
@@ -531,6 +518,17 @@ pre code {
     font-size: 100%;
     color: $bodyColour
   }
+}
+
+.img_container:hover {
+  opacity: 0.2;
+  transition: all .4s ease;
+  vertical-align: middle;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -moz-transform: scale(1.5); /* Firefox */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
 }
 
 .text_container {
