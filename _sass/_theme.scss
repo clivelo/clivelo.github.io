@@ -506,6 +506,26 @@ pre code {
   -o-transform: scale(1.05); /* Opera */
 }
 
+.go_corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: $linkColour;
+  border-radius: 0 4px 0 32px;
+}
+
+.go_arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+}
+
 .img_container {
   width: auto;
   height: auto;
