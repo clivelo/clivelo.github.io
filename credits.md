@@ -1,6 +1,6 @@
 ---
 title: Credits
-excerpt: "Credits page"
+excerpt: "Credits to people and resources that made this website possible"
 aside: false
 ---
 
