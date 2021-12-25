@@ -538,7 +538,12 @@ pre code {
 .text_container {
   display: block;
   padding: 16px 30px;
-  font-size: 90%;
   line-height: 150%;
   vertical-align: middle;
+  .text_container_title {
+    font-size: 100%;
+  }
+  .text_container_subtitle {
+    font-size: 90%;
+  }
 }
