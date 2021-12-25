@@ -498,7 +498,7 @@ pre code {
 }
 
 .box:hover {
-  border: 1px solid $accentColour
+  border: 1px solid $accentColour;
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
   transform: scale(1.05);
   -ms-transform: scale(1.05); /* IE 9 */
