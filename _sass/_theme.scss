@@ -510,7 +510,7 @@ pre code {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   width: 32px;
   height: 32px;
   overflow: hidden;
@@ -530,7 +530,7 @@ pre code {
   width: auto;
   height: auto;
   position: relative;
-  display: inline-block;
+  display: flex;
   overflow: hidden;
   border-radius: 5px 5px 0 0;
 }
