@@ -3,6 +3,7 @@ id: 2
 title: Self-Driving Car AI
 description: "A simulated self-driving car AI coded in Javascript, using p5.js for animation and visualization, TensorFlow for neural network."
 timg: "../assets/timg/0002.jpg"
+layout: project
 categories:
 - JavaScript
 excerpt: |
