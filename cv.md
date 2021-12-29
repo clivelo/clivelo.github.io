@@ -25,7 +25,7 @@ I completed my final year project with a research in the field of cognitive psyc
 <p class="cv_title"><b>AS in Psychology</b></p>
 <p class="cv_subtitle">Hong Kong Baptist University @ Hong Kong &nbsp; &mdash; &nbsp; 09/2014 to 07/2016</p>
 <p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design</i><br>
-</p>
+I graduated with a degree with distinction.</p>
 
 <br />
 ## Employment
@@ -36,7 +36,7 @@ I completed my final year project with a research in the field of cognitive psyc
 
 <p class="cv_title"><b>Research Assistant</b></p>
 <p class="cv_subtitle">PolyU Department of Rehabilitation Sciences @ Hong Kong &nbsp; &mdash; &nbsp; 07/2018 to 11/2018</p>
-<p class="cv_text">I assisted in two research projects regarding to game-based treatment efficacy in improving children’s working memory and attention. Participants of interest were children with special educational needs and preemies. My tasks involved providing assessment to children pre- and post- treatment, literature reviews, data analysis, and writing training manuals. I built a simple application with a GUI in Java for ease of data entry and calculation.</p>
+<p class="cv_text">I assisted in two research projects regarding game-based treatment efficacy in improving children’s working memory and attention. Participants of interest were children with special educational needs and preemies. My tasks involved providing assessment to children pre- and post- treatment, literature reviews, data analysis, and writing training manuals. I built a simple application with a GUI in Java for ease of data entry and calculation.</p>
 
 <br />
 ## Publications
