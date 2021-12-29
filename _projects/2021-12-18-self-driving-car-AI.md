@@ -24,5 +24,3 @@ The neural network is constructed using the TensorFlow library. It consists of t
 
 ## Future Direction
 Train car AI with a variety of tracks to improve generalizability.
-
-Train car AI with a variety of tracks to improve generalizability.
