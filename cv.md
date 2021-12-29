@@ -13,17 +13,17 @@ aside: true
 <p class="cv_title"><b>MPhil in Psychology</b></p>
 <p class="cv_subtitle">The Chinese University of Hong Kong @ Hong Kong &nbsp; &mdash; &nbsp; 09/2020 to Current<br>
 <i>Thesis Title: Neural Manifestation of Individual Variation in Touch Pleasantness</i></p>
-<p class="cv_text">Relevant courses: Seminar in Research Methods I & II, Major Psychological Approaches, Writing and Presentation, Seminar in Cognition, Seminar in Social Psychology and Personality<br>
+<p class="cv_text"><i>Relevant courses: Seminar in Research Methods I & II, Major Psychological Approaches, Writing and Presentation, Seminar in Cognition, Seminar in Social Psychology and Personality</i><br>
 My thesis was on how individual preference of touch velocity pleasantness is manifested in neural activity. I collected electroencephalogram (EEG) data and analyzed them on MATLAB with the EEGLAB plugin. I employed clustering to find out subjective preference patterns. I also took on teaching assistant duties every semester, which include teaching tutorials, grading assignments and exams, and responding to students' inquires.</p>
 
 <p class="cv_title"><b>BSocSc in Psychology</b></p>
 <p class="cv_subtitle">Hong Kong Baptist University @ Hong Kong &nbsp; &mdash; &nbsp; 09/2016 to 07/2018<br>
 <i>Thesis Title: Mechanism of Perceptual Grouping in Cross-Modal Interaction</i></p>
-<p class="cv_text">Relevant courses: Quantitative Research Methods and Design, Biological Psychology, Experimental Psychology, Psychological Testing and Assessment, Cognitive Psychology, Sensation and Perception</p>
+<p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design, Biological Psychology, Experimental Psychology, Psychological Testing and Assessment, Cognitive Psychology, Sensation and Perception</i></p>
 
 <p class="cv_title"><b>AS in Psychology</b></p>
 <p class="cv_subtitle">Hong Kong Baptist University @ Hong Kong &nbsp; &mdash; &nbsp; 09/2014 to 07/2016</p>
-<p class="cv_text">Relevant courses: Quantitative Research Methods and Design</p>
+<p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design</i></p>
 
 <br />
 ## Employment
