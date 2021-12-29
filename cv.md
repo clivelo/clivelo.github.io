@@ -39,11 +39,11 @@ My thesis was on how individual preference of touch velocity pleasantness is man
 <br />
 ## Publications
 
-<p class="cv_title">Schirmer, A., <b>Lo, C.</b>, & Wijaya, M. (2021). When the Music’s No Good: Rhythms Prompt Interactional Synchrony But Impair Affective Communication Outcomes. <i>Communication Research</i>. <a href="https://doi.org/10.1177/00936502211015900">https://doi.org/10.1177/00936502211015900</a></p>
+<p class="cv_text">Schirmer, A., <b>Lo, C.</b>, & Wijaya, M. (2021). When the Music’s No Good: Rhythms Prompt Interactional Synchrony But Impair Affective Communication Outcomes. <i>Communication Research</i>. <a href="https://doi.org/10.1177/00936502211015900">https://doi.org/10.1177/00936502211015900</a></p>
 
-<p class="cv_title"><b>Lo, C.</b>, Chu, S. T., Penney, T. B., & Schirmer, A. (2021). 3D Hand-Motion Tracking and Bottom-Up Classification Sheds Light on the Physical Properties of Gentle Stroking. <i>Neuroscience</i>, <i>464</i>, 90-104. <a href="https://doi.org/10.1016/j.neuroscience.2020.09.037">https://doi.org/10.1016/j.neuroscience.2020.09.037</a></p>
+<p class="cv_text"><b>Lo, C.</b>, Chu, S. T., Penney, T. B., & Schirmer, A. (2021). 3D Hand-Motion Tracking and Bottom-Up Classification Sheds Light on the Physical Properties of Gentle Stroking. <i>Neuroscience</i>, <i>464</i>, 90-104. <a href="https://doi.org/10.1016/j.neuroscience.2020.09.037">https://doi.org/10.1016/j.neuroscience.2020.09.037</a></p>
 
-<p class="cv_title">Schirmer, A., Chiu, M. H., <b>Lo, C.</b>, Feng, Y. J., & Penney, T. B. (2020). Angry, old, male – and trustworthy? How expressive and person voice characteristics shape listener trust. <i>PLOS ONE</i>, <i>15</i>(5). <a href="https://doi.org/10.1371/journal.pone.0232431">https://doi.org/10.1371/journal.pone.0232431</a></p>
+<p class="cv_text">Schirmer, A., Chiu, M. H., <b>Lo, C.</b>, Feng, Y. J., & Penney, T. B. (2020). Angry, old, male – and trustworthy? How expressive and person voice characteristics shape listener trust. <i>PLOS ONE</i>, <i>15</i>(5). <a href="https://doi.org/10.1371/journal.pone.0232431">https://doi.org/10.1371/journal.pone.0232431</a></p>
 
 <br />
 ## Languages and Tools
