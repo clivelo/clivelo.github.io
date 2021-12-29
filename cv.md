@@ -34,7 +34,7 @@ My thesis was on how individual preference of touch velocity pleasantness is man
 
 <p class="cv_title"><b>Research Assistant</b></p>
 <p class="cv_subtitle">PolyU Department of Rehabilitation Sciences @ Hong Kong &nbsp; &mdash; &nbsp; 07/2018 to 11/2018</p>
-<p class="cv_text">Assisted in two research projects regarding to game-based treatment efficacy in improving children’s working memory and attention. Participants of interest were children with special educational needs and preemies. Tasks involved providing assessment to children pre- and post- treatment, literature reviews, data analysis, and writing training manuals. Built a simple application with a GUI in Java for ease of data entry and calculation.</p>
+<p class="cv_text">I assisted in two research projects regarding to game-based treatment efficacy in improving children’s working memory and attention. Participants of interest were children with special educational needs and preemies. My tasks involved providing assessment to children pre- and post- treatment, literature reviews, data analysis, and writing training manuals. I built a simple application with a GUI in Java for ease of data entry and calculation.</p>
 
 <br />
 ## Publications
