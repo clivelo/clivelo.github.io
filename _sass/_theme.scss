@@ -562,19 +562,19 @@ pre code {
 #topBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  width: 60px;
-  height: 60px;
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 40px; /* Place the button 30px from the right */
+  width: 50px;
+  height: 50px;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: $focusColour; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 16px; /* Some padding */
+  padding: 14px; /* Some padding */
   border-radius: 50%; /* Rounded corners */
-  font-size: 36px; /* Increase font size */
+  font-size: 28px; /* Increase font size */
   font-weight: bold;
 }
 
