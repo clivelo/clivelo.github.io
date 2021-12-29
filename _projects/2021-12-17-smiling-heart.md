@@ -2,7 +2,7 @@
 id: 0
 title: A Smiling Heart
 description: "A beating heart that smiles when you click it."
-timg: "../assets/timg/0000.jpg"
+timg: "../assets/proj/0000/timg.jpg"
 layout: project
 categories:
 - JavaScript

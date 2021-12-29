@@ -2,7 +2,7 @@
 id: 1
 title: 2D Raycasting
 description: "Visual demonstration of the raycasting algorithm."
-timg: "../assets/timg/0001.jpg"
+timg: "../assets/proj/0001/timg.jpg"
 layout: project
 categories:
 - JavaScript
