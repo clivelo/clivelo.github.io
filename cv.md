@@ -19,11 +19,13 @@ My thesis was on how individual preference of touch velocity pleasantness is man
 <p class="cv_title"><b>BSocSc in Psychology</b></p>
 <p class="cv_subtitle">Hong Kong Baptist University @ Hong Kong &nbsp; &mdash; &nbsp; 09/2016 to 07/2018<br>
 <i>Thesis Title: Mechanism of Perceptual Grouping in Cross-Modal Interaction</i></p>
-<p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design, Biological Psychology, Experimental Psychology, Psychological Testing and Assessment, Cognitive Psychology, Sensation and Perception</i></p>
+<p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design, Biological Psychology, Experimental Psychology, Psychological Testing and Assessment, Cognitive Psychology, Sensation and Perception</i><br>
+I completed my final year project with a research in the field of cognitive psychology. The experiment was built using E-Prime. I completed literature reviews, data collection and analysis, and paper write-up in the span of one academic year. I also did a practicum as a teaching assistant for around half a year in a special-needs early education centre named Watchdog. At the end of my study, I was the undergraduate representative of our university's Psychology degree programme review.</p>
 
 <p class="cv_title"><b>AS in Psychology</b></p>
 <p class="cv_subtitle">Hong Kong Baptist University @ Hong Kong &nbsp; &mdash; &nbsp; 09/2014 to 07/2016</p>
-<p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design</i></p>
+<p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design</i><br>
+</p>
 
 <br />
 ## Employment
