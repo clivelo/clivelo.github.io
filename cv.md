@@ -47,4 +47,19 @@ I graduated with a degree with distinction.</p>
 
 <h2 class="cv_section">Languages and Tools</h2>
 
-<img src="/assets/cv/python.png" width=50 height=50 title="Python" alt="Python"> &nbsp; <img src="/assets/cv/numpy.png" width=50 height=50 title="NumPy" alt="NumPy"> &nbsp; <img src="/assets/cv/scipy.svg" width=50 height=50 title="SciPy" alt="SciPy"> &nbsp; <img src="/assets/cv/pandas.png" width=50 height=50 title="pandas" alt="pandas"> &nbsp; <img src="/assets/cv/matplotlib.png" width=50 height=50 title="Matplotlib" alt="Matplotlib"> &nbsp; <img src="/assets/cv/scikit-learn.png" width=50 height=50 title="scikit-learn" alt="scikit-learn"> &nbsp; <img src="/assets/cv/tensorflow.png" width=50 height=50 title="TensorFlow" alt="TensorFlow"> &nbsp; <img src="/assets/cv/opencv.png" width=50 height=50 title="OpenCV" alt="OpenCV"> &nbsp; <img src="/assets/cv/librosa.png" width=50 height=50 title="librosa" alt="librosa"> &nbsp; <img src="/assets/cv/matlab.png" width=50 height=50 title="MATLAB" alt="MATLAB"> &nbsp; <img src="/assets/cv/r.png" width=50 height=50 title="R" alt="R"> &nbsp; <img src="/assets/cv/java.png" width=50 height=50 title="Java" alt="Java"> &nbsp; <img src="/assets/cv/javascript.png" width=50 height=50 title="JavaScript" alt="JavaScript"> &nbsp; <img src="/assets/cv/p5js.png" width=50 height=50 title="p5.js" alt="p5.js">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" height=50 title="Python" alt="Python"> &nbsp;
+<img src="https://numpy.org/images/logo.svg" height=50 title="NumPy" alt="NumPy"> &nbsp;
+<img src="https://scipy.org/images/logo.svg" height=50 title="SciPy" alt="SciPy"> &nbsp;
+<img src="https://pandas.pydata.org/static/img/pandas_secondary.svg" height=50 title="pandas" alt="pandas"> &nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" height=50 title="Matplotlib" alt="Matplotlib"> &nbsp;
+<img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" height=50 title="scikit-learn" alt="scikit-learn"> &nbsp;
+<img src="https://www.gstatic.com/devrel-devsite/prod/v84e6f6a61298bbae5bb110c196e834c7f21fe3fb34e722925433ddb936d280c9/tensorflow/images/lockup.svg" height=50 title="TensorFlow" alt="TensorFlow"> &nbsp;
+<img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" height=50 title="OpenCV" alt="OpenCV"> &nbsp;
+<img src="https://librosa.org/doc/latest/_static/librosa_logo_text.svg" height=50 title="librosa" alt="librosa"> &nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png" width=50 title="MATLAB" alt="MATLAB"> &nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" height=50 title="R" alt="R"> &nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" height=50 title="Java" alt="Java"> &nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" height=50 title="HTML" alt="HTML"> &nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" height=50 title="CSS" alt="CSS"> &nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" height=50 title="JavaScript" alt="JavaScript"> &nbsp;
+<img src="https://hello.p5js.org/assets/p5-sq-reverse.svg" height=50 title="p5.js" alt="p5.js">
