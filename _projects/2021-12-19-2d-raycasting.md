@@ -10,7 +10,6 @@ excerpt: |
   2D raycasting visualization
 ---
 
-# 2D-raycasting
 This is a 2D raycasting visualization built in JavaScript with the p5.js library. Raycasting is a rendering technique that determines the perspective at a given position. A ray is cast at a particiular angle from a source, it calculates the closest intersection to an opaque object. Many perspective games use this technique to render from the character/camera's position what can be seen.
 
 Project inspired by The Coding Train, <https://www.youtube.com/watch?v=TOEi6T2mtHo>
