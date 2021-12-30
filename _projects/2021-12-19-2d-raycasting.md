@@ -38,5 +38,4 @@ if (t > 0 && t < 1 && u > 0) {                                  # If t is betwee
   intersection = false;
   intersection_pts = null;
 }
-{% endhighlight %}
 ```
