@@ -17,7 +17,7 @@ Project inspired by The Coding Train, <https://www.youtube.com/watch?v=TOEi6T2mt
 ## Raycasting Algorithm
 Given two end points of a ray and two end points of a wall, whether a ray and a wall are intersected and their intersection point are determined by the following pseudocode code.
 
-```javascript
+``` js
 # (x1, y1) = first end point of the wall
 # (x2, y2) = second end point of the wall
 # (x3, y3) = first end point of the ray
