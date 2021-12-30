@@ -4,7 +4,7 @@ categories:
 - General
 excerpt: |
   Hello world :earth_asia:! Feel free to bookmark this site for updates about my projects!
-aside: true
+aside: false
 ---
 
 Hello world! Is making my personal website at the age of 26 a bit too late?
