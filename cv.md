@@ -47,13 +47,13 @@ I graduated with a degree with distinction.</p>
 
 <h2 class="cv_section">Languages and Tools</h2>
 
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width=50 title="Python" alt="Python"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width=75 title="Python" alt="Python"> &nbsp;&nbsp;
 <img src="https://numpy.org/images/logo.svg" width=75 title="NumPy" alt="NumPy"> &nbsp;&nbsp;
 <img src="https://scipy.org/images/logo.svg" width=75 title="SciPy" alt="SciPy"> &nbsp;&nbsp;
 <img src="https://pandas.pydata.org/static/img/pandas_secondary.svg" width=75 title="pandas" alt="pandas"> &nbsp;&nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width=75 title="Matplotlib" alt="Matplotlib"> &nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" width=75 title="scikit-learn" alt="scikit-learn"> &nbsp;&nbsp;
-<img src="https://www.tensorflow.org/resources/images/tf-logo-card-16x9.png" width=75 title="TensorFlow" alt="TensorFlow"> &nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/449px-Tensorflow_logo.svg.png" width=75 title="TensorFlow" alt="TensorFlow"> &nbsp;&nbsp;
 <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" width=75 title="OpenCV" alt="OpenCV"> &nbsp;&nbsp;
 <img src="https://avatars.githubusercontent.com/u/18124827?s=280&v=4" width=75 title="librosa" alt="librosa"> &nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png" width=75 title="MATLAB" alt="MATLAB"> &nbsp;&nbsp;
