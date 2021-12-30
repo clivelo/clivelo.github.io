@@ -319,6 +319,7 @@ a {
   code, pre {
     background-color: $codeBackgroundColour;
     font-family: unquote(map-get($monospacetype, font-family));
+    line-height: 1.2rem;
   }
 
   pre {
@@ -334,7 +335,7 @@ a {
   code {
     @include fontsize(theta, all);
 
-    line-height: 1rem;
+    line-height: 1.5rem;
   }
 
   // Letter space those capitals people, Jan Tschichold would be proud.
