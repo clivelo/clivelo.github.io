@@ -10,6 +10,8 @@ layout: default
 
     <article class="article  article--page  typeset">
 
+      <hr class="solid">
+
       {% if paginator.posts %}
         {% assign collectiondata = site.collections | where: "label", post.collectionpage | first %}
         <h1>{{ collectiondata.title }}</h1>
