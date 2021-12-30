@@ -8,7 +8,7 @@ feature_image: "https://picsum.photos/1300/400?image=465"
 aside: true
 ---
 
-## Education
+<h2 class="cv_section">Education</h2>
 
 <p class="cv_title"><b>MPhil in Psychology</b></p>
 <p class="cv_subtitle">The Chinese University of Hong Kong @ Hong Kong &nbsp; &mdash; &nbsp; 09/2020 to Current<br>
@@ -27,8 +27,7 @@ I completed my final year project with a research in the field of cognitive psyc
 <p class="cv_text"><i>Relevant courses: Quantitative Research Methods and Design</i><br>
 I graduated with a degree with distinction.</p>
 
-<br />
-## Employment
+<h2 class="cv_section">Employment</h2>
 
 <p class="cv_title"><b>Research Assistant</b></p>
 <p class="cv_subtitle">CUHK Department of Psychology @ Hong Kong &nbsp; &mdash; &nbsp; 05/2019 to 09/2020</p>
@@ -38,8 +37,7 @@ I graduated with a degree with distinction.</p>
 <p class="cv_subtitle">PolyU Department of Rehabilitation Sciences @ Hong Kong &nbsp; &mdash; &nbsp; 07/2018 to 11/2018</p>
 <p class="cv_text">I assisted in two research projects regarding game-based treatment efficacy in improving children’s working memory and attention. Participants of interest were children with special educational needs and preemies. My tasks involved providing assessment to children pre- and post- treatment, literature reviews, data analysis, and writing training manuals. I built a simple application with a GUI in Java for ease of data entry and calculation.</p>
 
-<br />
-## Publications
+<h2 class="cv_section">Publications</h2>
 
 <p class="cv_title" style="font-size:90%;">Schirmer, A., <b>Lo, C.</b>, & Wijaya, M. (2021). When the Music’s No Good: Rhythms Prompt Interactional Synchrony But Impair Affective Communication Outcomes. <i>Communication Research</i>. <a href="https://doi.org/10.1177/00936502211015900">https://doi.org/10.1177/00936502211015900</a></p>
 
@@ -47,5 +45,4 @@ I graduated with a degree with distinction.</p>
 
 <p class="cv_title" style="font-size:90%;">Schirmer, A., Chiu, M. H., <b>Lo, C.</b>, Feng, Y. J., & Penney, T. B. (2020). Angry, old, male – and trustworthy? How expressive and person voice characteristics shape listener trust. <i>PLOS ONE</i>, <i>15</i>(5). <a href="https://doi.org/10.1371/journal.pone.0232431">https://doi.org/10.1371/journal.pone.0232431</a></p>
 
-<br />
-## Languages and Tools
+<h2 class="cv_section">Languages and Tools</h2>

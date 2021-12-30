@@ -459,8 +459,11 @@ pre code {
     white-space: pre;
     overflow-x: scroll;
   }
-  p.cv_title {
+  h3.cv_section {
     padding-top: 1.5rem;
+  }
+  p.cv_title {
+    padding-top: 1rem;
     padding-bottom: 0;
     margin-bottom: 0;
   }
