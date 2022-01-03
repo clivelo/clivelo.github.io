@@ -11,9 +11,13 @@ Hey, I'm Clive—an AI enthusiast with a Psychology background from Hong Kong. M
 
 Take a look at my projects and coding blogs! Feel free to bookmark this website if you are interested in what I do! Wish you a nice day! :robot:
 
+<<<<<<< Updated upstream
 {% include button.html text="GitHub" icon="github" link="https://github.com/clivelo" color="#333333" %} &nbsp; {% include button.html text="LinkedIn" icon="linkedin" link="https://www.linkedin.com/in/clivelo-kw" color="#0077b5" %} &nbsp; {% include button.html text="Email" icon="email" link="mailto:clivelo.kw@gmail.com" %}
 
 <br>
 # Contact Me
 
 {% include site-form.html %}
+=======
+{% include button.html text="GitHub" icon="github" link="https://github.com/clivelo" color="#333333" %} &nbsp; {% include button.html text="LinkedIn" icon="linkedin" link="https://www.linkedin.com/in/clivelo-kw" color="#0077b5" %} {% include button.html text="Leetcode" icon="leetcode" link="https://leetcode.com/clivelo" color="#ffa215"} &nbsp; {% include button.html text="Email" icon="email" link="mailto:clivelo.kw@gmail.com" %}
+>>>>>>> Stashed changes
