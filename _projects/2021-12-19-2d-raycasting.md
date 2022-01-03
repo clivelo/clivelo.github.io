@@ -3,6 +3,7 @@ id: 1
 title: 2D Raycasting
 description: "Visual demonstration of the raycasting algorithm."
 timg: "../assets/proj/0001/timg.jpg"
+repo: "https://github.com/clivelo/2D-raycasting"
 layout: project
 categories:
 - JavaScript

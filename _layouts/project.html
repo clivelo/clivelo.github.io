@@ -10,6 +10,8 @@ layout: default
 
     <h1>{{ page.title }}</h1>
     {% include post-meta.html %}
+    {% include button.html text="GitHub Repo" icon="github" link={{ page.repo }} color="#333333" %}
+
     {{ content }}
 
     {% include nav-share.html %}

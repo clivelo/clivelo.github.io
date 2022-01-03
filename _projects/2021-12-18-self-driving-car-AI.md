@@ -3,6 +3,7 @@ id: 2
 title: Self-Driving Car AI
 description: "A simulated self-driving car AI coded in Javascript, using p5.js for animation and visualization, TensorFlow for neural network."
 timg: "../assets/proj/0002/timg.jpg"
+repo: "https://github.com/clivelo/self-driving-AI"
 layout: project
 categories:
 - JavaScript
