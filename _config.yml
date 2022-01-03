@@ -156,6 +156,7 @@ navigation_footer:
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   GitHub: https://github.com/clivelo
   LinkedIn: https://www.linkedin.com/in/clivelo-kw
+  Leetcode: https://www.leetcode.com/clivelo
   Email: mailto:clivelo.kw@gmail.com
   RSS: /feed.xml
 
