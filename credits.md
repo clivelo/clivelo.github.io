@@ -5,5 +5,5 @@ aside: false
 ---
 
 
-:sparkles: [Alembic](https://github.com/daviddarnes/alembic) theme template made by [David Darnes](https://darn.es).\
-:sparkles: Icons made by [Good Ware](https://www.flaticon.com/authors/good-ware) from [www.flaticon.com](https://www.flaticon.com).
+:sparkles: <a href="https://github.com/daviddarnes/alembic" target="_blank">Alembic</a> theme template made by <a href="https://darn.es" target="_blank">David Darnes</a>.\
+:sparkles: Icons made by <a href="https://www.flaticon.com/authors/good-ware" target="_blank">Good Ware</a> from <a href="https://www.flaticon.com" target="_blank">www.flaticon.com</a>.
