@@ -6,7 +6,8 @@ timg: "../assets/proj/0000/timg.jpg"
 repo: "https://github.com/clivelo/smiling-heart"
 layout: project
 tags:
-- JavaScript
+- javascript
+- p5
 excerpt: |
   A happy, smiling heart
 ---

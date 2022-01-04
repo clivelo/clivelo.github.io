@@ -6,7 +6,9 @@ timg: "../assets/proj/0002/timg.jpg"
 repo: "https://github.com/clivelo/self-driving-AI"
 layout: project
 tags:
-- JavaScript
+- javascript
+- p5
+- AI
 excerpt: |
   A self-driving car AI built on Javascript, with the use of p5.js and TensorFlow.
 ---
