@@ -1,7 +1,7 @@
 {% if page.tags %}
   {% capture tags %}
     {% for tag in page.tags %}
-      <span class="label  label--category">{{ tag }}</span>{% if forloop.last == false %},{% endif %}
+      <span class="label  label--category">#{{ tag }}</span>{% if forloop.last == false %},{% endif %}
     {% endfor %}
   {% endcapture %}
 {% endif %}
