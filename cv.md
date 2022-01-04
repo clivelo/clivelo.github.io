@@ -47,19 +47,19 @@ I graduated with a degree with distinction.</p>
 
 <h2 class="cv_section">Languages and Tools</h2>
 
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width=75 title="Python" alt="Python"> &nbsp;&nbsp;
-<img src="https://numpy.org/images/logo.svg" width=75 title="NumPy" alt="NumPy"> &nbsp;&nbsp;
-<img src="https://scipy.org/images/logo.svg" width=75 title="SciPy" alt="SciPy"> &nbsp;&nbsp;
-<img src="https://pandas.pydata.org/static/img/pandas_secondary.svg" width=75 title="pandas" alt="pandas"> &nbsp;&nbsp;
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width=75 title="Matplotlib" alt="Matplotlib"> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" width=75 title="scikit-learn" alt="scikit-learn"> &nbsp;&nbsp;
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/449px-Tensorflow_logo.svg.png" width=75 title="TensorFlow" alt="TensorFlow"> &nbsp;&nbsp;
-<img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" width=75 title="OpenCV" alt="OpenCV"> &nbsp;&nbsp;
-<img src="https://avatars.githubusercontent.com/u/18124827?s=280&v=4" width=75 title="librosa" alt="librosa"> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png" width=75 title="MATLAB" alt="MATLAB"> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" width=75 title="R" alt="R"> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" width=75 title="Java" alt="Java"> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" width=75 title="HTML" alt="HTML"> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" width=75 title="CSS" alt="CSS"> &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width=75 title="JavaScript" alt="JavaScript"> &nbsp;&nbsp;
-<img src="https://hello.p5js.org/assets/p5-sq-reverse.svg" width=75 title="p5.js" alt="p5.js">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width=60 title="Python" alt="Python"> &nbsp;&nbsp;
+<img src="https://numpy.org/images/logo.svg" width=60 title="NumPy" alt="NumPy"> &nbsp;&nbsp;
+<img src="https://scipy.org/images/logo.svg" width=60 title="SciPy" alt="SciPy"> &nbsp;&nbsp;
+<img src="https://pandas.pydata.org/static/img/pandas_secondary.svg" width=60 title="pandas" alt="pandas"> &nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width=60 title="Matplotlib" alt="Matplotlib"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" width=60 title="scikit-learn" alt="scikit-learn"> &nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/449px-Tensorflow_logo.svg.png" width=60 title="TensorFlow" alt="TensorFlow"> &nbsp;&nbsp;
+<img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text_.png" width=60 title="OpenCV" alt="OpenCV"> &nbsp;&nbsp;
+<img src="https://avatars.githubusercontent.com/u/18124827?s=280&v=4" width=60 title="librosa" alt="librosa"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png" width=60 title="MATLAB" alt="MATLAB"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" width=60 title="R" alt="R"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" width=60 title="Java" alt="Java"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" width=60 title="HTML" alt="HTML"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" width=60 title="CSS" alt="CSS"> &nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width=60 title="JavaScript" alt="JavaScript"> &nbsp;&nbsp;
+<img src="https://hello.p5js.org/assets/p5-sq-reverse.svg" width=60 title="p5.js" alt="p5.js">
