@@ -1,0 +1,9 @@
+<small class="small  post-meta">
+  {% if page.tags %}
+    {% capture tags %}
+      {% for tag in page.tags %}
+        <span class="label  label--category">#{{ tag }}</span>{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    {% endcapture %}
+  {% endif %}
+</small>

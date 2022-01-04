@@ -5,7 +5,7 @@ description: "A beating heart that smiles when you click it."
 timg: "../assets/proj/0000/timg.jpg"
 repo: "https://github.com/clivelo/smiling-heart"
 layout: project
-categories:
+tags:
 - JavaScript
 excerpt: |
   A happy, smiling heart

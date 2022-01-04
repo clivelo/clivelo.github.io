@@ -5,7 +5,7 @@ description: "Visual demonstration of the raycasting algorithm."
 timg: "../assets/proj/0001/timg.jpg"
 repo: "https://github.com/clivelo/2D-raycasting"
 layout: project
-categories:
+tags:
 - JavaScript
 excerpt: |
   A 2D raycasting visualization built in JavaScript with the p5.js library

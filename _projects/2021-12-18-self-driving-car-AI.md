@@ -5,7 +5,7 @@ description: "A simulated self-driving car AI coded in Javascript, using p5.js f
 timg: "../assets/proj/0002/timg.jpg"
 repo: "https://github.com/clivelo/self-driving-AI"
 layout: project
-categories:
+tags:
 - JavaScript
 excerpt: |
   A self-driving car AI built on Javascript, with the use of p5.js and TensorFlow.
