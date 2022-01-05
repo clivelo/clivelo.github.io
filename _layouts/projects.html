@@ -9,8 +9,8 @@ layout: default
     <article class="article  article--page  typeset">
       <div class="wrapper">
 
-        {% assign sorted_projects = site.projects | sort: 'id' | reverse %}
-        <h1>{{sorted_projects}}</h1>
+        {% assign sorted_projects = site.projects | sort: "id" %}
+        <h1>{{sorted_projects.title}}</h1>
         {% for proj in sorted_projects %}
           <a href={{proj.url}}>
             <div class="box">
