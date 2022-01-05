@@ -10,22 +10,23 @@ layout: default
       <div class="wrapper">
 
         {% assign sorted_projects = site.projects | sort: 'id' | reverse %}
+        <h1>sorted_projects</h1>
         {% for proj in sorted_projects %}
-        <a href={{proj.url}}>
-          <div class="box">
-            <div class="img_container">
-              <img src={{proj.timg}} />
-            </div>
-            <div class="text_container">
-              <div class="text_container_title">
-                <b>{{ proj.title }}</b>
+          <a href={{proj.url}}>
+            <div class="box">
+              <div class="img_container">
+                <img src={{proj.timg}} />
               </div>
-              <div class="text_container_subtitle">
-                {{ proj.description }}
+              <div class="text_container">
+                <div class="text_container_title">
+                  <b>{{ proj.title }}</b>
+                </div>
+                <div class="text_container_subtitle">
+                  {{ proj.description }}
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
         {% endfor %}
 
       </div>
