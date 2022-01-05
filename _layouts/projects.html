@@ -10,7 +10,7 @@ layout: default
       <div class="wrapper">
 
         {% assign sorted_projects = site.projects | sort: 'id' | reverse %}
-        <h1>sorted_projects</h1>
+        <h1>{{sorted_projects}}</h1>
         {% for proj in sorted_projects %}
           <a href={{proj.url}}>
             <div class="box">
