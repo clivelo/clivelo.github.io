@@ -1,5 +1,5 @@
 ---
-id: "0000"
+weight: "0000"
 title: A Smiling Heart
 description: "A beating heart that smiles when you click it."
 timg: "../assets/proj/0000/timg.jpg"

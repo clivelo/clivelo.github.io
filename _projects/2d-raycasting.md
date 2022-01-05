@@ -1,5 +1,5 @@
 ---
-id: "0001"
+weight: "0001"
 title: 2D Raycasting
 description: "Visual demonstration of the raycasting algorithm."
 timg: "../assets/proj/0001/timg.jpg"
