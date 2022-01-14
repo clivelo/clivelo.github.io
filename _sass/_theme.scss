@@ -551,11 +551,12 @@ pre code {
 
 .text_container {
   display: block;
-  padding: 16px 30px;
+  padding: 20px 30px;
   vertical-align: middle;
   .text_container_title {
     font-size: 100%;
-    line-height: 270%;
+    line-height: 150%;
+    padding-bottom: 12px;
   }
   .text_container_subtitle {
     font-size: 80%;
