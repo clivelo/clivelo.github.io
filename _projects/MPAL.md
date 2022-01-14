@@ -1,15 +1,15 @@
 ---
-weight: "0001"
-title: A Smiling Heart
-description: "A beating heart that smiles when you click it."
-timg: "../assets/proj/0001/timg.jpg"
-repo: "https://github.com/clivelo/smiling-heart"
+weight: "0000"
+title: Motion Pattern Analysis (MPAL)
+description: "A python open source application for the analysis of hand motion."
+timg: "../assets/proj/0000/timg.jpg"
+repo: "https://github.com/bbl-brainbehaviorlab/MPAL"
 layout: project
 tags:
-- javascript
-- p5
+- python
+- motion-tracking
 excerpt: |
-  A happy, smiling heart
+  Application for hand motion analysis
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
