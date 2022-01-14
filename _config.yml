@@ -66,7 +66,7 @@ collections:
     #description: "My thoughts and ideas" # The post list page content
     feature_text: |
       ## Blog
-    feature_image: "https://picsum.photos/2560/600?image=256&blur=1"
+    feature_image: "https://picsum.photos/2560/800?image=256&blur=1"
     permalink: "/:collection/:year/:month/:day/:title/"
 
   projects:
@@ -74,7 +74,7 @@ collections:
     output: true
     feature_text: |
       ## Projects
-    feature_image: "https://picsum.photos//2560/600?image=55&blur=3"
+    feature_image: "https://picsum.photos//2560/800?image=55&blur=3"
     permalink: "/:collection/:name/"
 
 # 6. Jekyll collections settings
