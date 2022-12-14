@@ -4,7 +4,7 @@
 
 - name: MATLAB
   percentage: 70
-  color: 
+  color: info
 
 - name: MySQL
   percentage: 65
