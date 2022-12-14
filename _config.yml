@@ -2,7 +2,7 @@
 title               : Clive LO
 description         : >-
                       Portfolio and coding blog of Clive LO.
-baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : "https://clivelo.me"              # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : clivelo/clivelo                   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
@@ -24,7 +24,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Clive LO
-  image             : https://imgur.com/a/RV80QbL
+  image             : https://i.imgur.com/7Yd4QMU.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : clivelo.kw@gmail.com
@@ -75,7 +75,7 @@ analytics:
 # See https://www.buymeacoffee.com/
 buymeacoffee:
   enabled: true
-  username: cliveki
+  username: clivelo
   color: "#007bff"
   message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
   description: "Support me on Buy me a coffee!"
