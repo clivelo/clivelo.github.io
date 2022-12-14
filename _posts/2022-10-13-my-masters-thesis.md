@@ -31,14 +31,14 @@ To answer this research question, we used a robotic touch device that controls a
 <img src="/assets/post/2022-10-13-my-masters-thesis/001.jpg" title="Robotic Touch Device" alt="Robotic Touch Device" width="400" height="400">
 
 ## Results
-### Subjective Pleasantness Ratings
+#### Subjective Pleasantness Ratings
 First, we wanted to look at how much variability there was between individuals. Do all healthy people prefer 1-10 cm/s speed of touch? Well actually, no. K-means clustering showed that there were **two distinct types of people**. One group prefers the good ol' 1-10 cm/s, but the other group prefers faster speed (given the range of our tested velocities)! We speculated that maybe the 1-10 cm/s group prefers CT activation whereas the fast group prefers Aβ activation.
 
 Interestingly, with the fast velocity preference group, intermediate velocities became less and less pleasant as the experiment went on. This implies that this group affectively habituated to intermediate velocities specifically and therefore likely reduces their exposure to such touch in real life.
 
 <img src="/assets/post/2022-10-13-my-masters-thesis/004.png" title="Cluster" alt="Cluster" width="640" height="400">
 
-### Neural Process
+#### Neural Process
 We divided the EEG data into six areas and three frequencies (beta, alpha, theta). The data were subjected to a support vector machine (SVM) to explore what features can be used to predict a person’s stroking speed preference. We found that the **right-middle brain area theta frequency band** was a good predictor of speed preference (10-fold cross-validation accuracy of 0.67 > 0.5 chance)
 
 ## Postface
