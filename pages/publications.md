@@ -8,6 +8,8 @@ weight: 3
 # **Publications**
 
 <br/>
+Schirmer, A., Lai, O., Cham, C., <b>Lo, C.</b> (2022). Velocity-Tuning of Somatosensory EEG Predicts the Pleasantness of Gentle Caress. <i>NeuroImage</i>. <a href="https://doi.org/10.1016/j.neuroimage.2022.119811" target="_blank">https://doi.org/10.1016/j.neuroimage.2022.119811</a>
+
 Schirmer, A., Cham, C., Zhao, Z., Lai, O., <b>Lo, C.</b>, & Croy, I. (2022). Understanding sex differences in affective touch: Sensory pleasantness, social comfort, and precursive experiences. <i>Physiology & Behavior</i>, <i>250</i>. <a href="https://doi.org/10.1016/j.physbeh.2022.113797" target="_blank">https://doi.org/10.1016/j.physbeh.2022.113797</a>
 
 Schirmer, A., <b>Lo, C.</b>, & Wijaya, M. (2021). When the Music’s No Good: Rhythms Prompt Interactional Synchrony But Impair Affective Communication Outcomes. <i>Communication Research</i>. <a href="https://doi.org/10.1177/00936502211015900" target="_blank">https://doi.org/10.1177/00936502211015900</a>
