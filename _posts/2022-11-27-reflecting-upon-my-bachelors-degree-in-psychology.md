@@ -1,8 +1,8 @@
 ---
 title: Reflecting upon my bachelor's degree in Psychology
 tags: [Psychology, Academic]
-style: 
-color: 
+style: fill
+color: danger
 description: I want to reflect upon my journey of earning my bachelor's degree in Psychology.
 ---
 

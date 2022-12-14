@@ -1,8 +1,8 @@
 ---
 title: Finding the right therapist for you
 tags: [Psychology]
-style: 
-color: 
+style: fill
+color: danger
 description: Therapy greatly benefited me when I was in a particularly confusing time in my life. To anyone who is considering going to therapy, I’m here to share how to find the right therapist for you.
 ---
 
