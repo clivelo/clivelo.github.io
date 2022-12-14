@@ -8,15 +8,15 @@
 
 - name: Data Analysis
   percentage: 90
-  color: info
+  color: 
 
 - name: Neuroscience
   percentage: 85
-  color: info
+  color: 
 
 - name: Artificial Intelligence
   percentage: 75
-  color: 
+  color: info
 
 - name: Unix
   percentage: 60
