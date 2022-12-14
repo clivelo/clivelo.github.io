@@ -95,3 +95,8 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+researchgate:
+  url   : https://www.researchgate.net/profile/
+  icon  : fab fa-researchgate
+  color : 00c4b3
