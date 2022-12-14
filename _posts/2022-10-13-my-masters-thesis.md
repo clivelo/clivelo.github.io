@@ -2,7 +2,7 @@
 title: My master's thesis
 tags: [Psychology, Academic]
 style: fill
-color: danger
+color: warning
 description: At last, I have graduated with my research master's degree. This was definitely one of the most challenging things I have ever done. Since I haven't posted much here, I thought "hey, let's write about my thesis again on my website after I have just gruelingly finished writing my thesis."
 ---
 
