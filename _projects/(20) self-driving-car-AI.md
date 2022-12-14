@@ -15,7 +15,7 @@ A track consists of walls that the car may crash into. Scattered throughout the 
 ## Neural Network
 The neural network is constructed using the TensorFlow library. It consists of three layers. The input layer consists of 20 nodes, they correspond to the distance between each of the 20 sensors and the closest wall in its given direction. They are connected to one dense layer that consists of 8 nodes, which is then connected to the output layer consisted of 4 nodes. The output of the neural network is the four movements that a car can operate (i.e., forward, backward, rotate left, rotate right).
 
-<img src="/assets/proj/0125/nn2.png" width=600 title="Neural Network" alt="Neural Network">
+<img src="/assets/proj/20/nn2.png" width=600 title="Neural Network" alt="Neural Network">
 
 ## Fitness Score
 Cars are rewarded for moving quickly around the track, passing checkpoints, and being close to the next checkpoint upon crashing. Fitness score begins at 50, with a decrement of 0.5 for every tick passed. Every checkpoint rewards 100 points. If a car has crashed, additional fitness score is added by rewarding for being close to the next checkpoint and penalized for being close to the previous checkpoint.
