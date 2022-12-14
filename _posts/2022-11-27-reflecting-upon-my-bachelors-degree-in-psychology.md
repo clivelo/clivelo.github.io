@@ -36,7 +36,7 @@ But in spite of this, I wholeheartedly think that studying Psychology is incredi
 ## Confusing Careers
 Despite all these benefits, majoring in Psychology is not a great option career-wise. There are three main paths that Psychology graduates take:
 
-### 1. Psychologist (or someone who works with mental health)
+#### 1. Psychologist (or someone who works with mental health)
 
 There are many types of psychologists, educational psychologists, counseling psychologists, clinical psychologists, industrial-organizational psychologists, occupational therapists, special needs teaching assistants, etc.
 
@@ -44,17 +44,17 @@ The thing about becoming a psychologist is that a 4-year degree in Psychology ty
 
 If you don’t want to do a master’s but still want to work with people with mental health disorders, a common career path is to become a teaching assistant for special educational needs (SEN) students. My program had us take a 6-credit practicum where many of us did two semesters of internship at an SEN school, and many of my classmates ended up working in one of those schools after graduation.
 
-### 2. Any careers working with people
+#### 2. Any careers working with people
 
 I have met plenty of people who got into human resources after their Psychology degree, some went into social work or even hospitality. One of the impressions that people have towards Psychology graduates is that they are great with people because of their understanding of human beings, they will not hesitate to hire someone with a Psychology degree for these positions. However, it’s important to note that the three careers that I mentioned all have their own major in university, so you will have quite a bit of competition.
 
-### 3. Research
+#### 3. Research
    
 As I have stated in the beginning, research is a huge part of Psychology. Many people (including me) went into a research career after graduation. It’s a challenging and fruitful career from my experience, but it’s not something that is long-term.
    
 A research career essentially means you will work as a research assistant if you have a bachelor’s degree, a research associate if you have a master’s degree, and a post-doc if you have a Ph.D. The thing is, these careers lack advancements unless you pursue a professorship. Besides, if you ever wish to escape academia and get into research in the commercial sector, depending on your specialty it may not be easy to find any project that matches your skillsets and experiences.
 
-### Afterthought
+#### Afterthought
 
 The limited career prospects force many graduates to switch fields, myself included. The positive aspect is that a Psychology degree is versatile, you can get into advertising, recruiting, UI/UX research, teaching, etc. The negative aspect is that you really have to put in some extra work to demonstrate that you know how to do these things, not to mention that most recruiters’ understanding of psychology is mental health and understanding of human beings, it’s an uphill battle.
 
