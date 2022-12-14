@@ -21,7 +21,7 @@ On the other hand, the affective system deals with the affective quality of touc
 
 I'm assuming by now you have thought about my question at the beginning of this introduction. Actually, research tells us that, in terms of stroking speed, people deemed a **1-10 cm/s** speed to be pleasant, any slower or any faster was considered less pleasant. In fact, when measuring the Aβ and CT afferents, Aβ fired more as stroking velocity increased whereas CT fired more at that same 1-10 cm/s velocity. As such, CT is said to associate with touch pleasantness, and this high firing rate/pleasantness at intermediate velocities was named the **inverted U-shaped effect**.
 
-<img style="padding-right:2rem" src="/assets/post/2022-10-13-my-masters-thesis/002.png" title="Aβ" alt="Aβ" width="300" height="300"><img style="padding-right:2rem" src="/assets/post/2022-10-13-my-masters-thesis/003.png" title="CT" alt="CT" width="300" height="300">
+<img style="padding-right:2rem" src="/assets/post/2022-10-13-my-masters-thesis/002.png" title="Aβ" alt="Aβ" width="200" height="200"><img style="padding-right:2rem" src="/assets/post/2022-10-13-my-masters-thesis/003.png" title="CT" alt="CT" width="200" height="200">
 
 Some researchers have proposed that this inverted U-shaped effect can be used as a diagnostic marker of certain developmental issues. However, there is a huge problem with this generalized claim. Does this effect exist on both the group and individual levels, or does it only exist on the group level? In other words, how much variability is there between people's preference to touch velocities? Also, how does that manifest in our brain processes?
 
