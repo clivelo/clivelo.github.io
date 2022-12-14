@@ -1,7 +1,23 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Psychology
+  percentage: 100
+  color: danger
+
+- name: Academic Research
+  percentage: 100
+  color: danger
+
+- name: Data Analysis
+  percentage: 90
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: Neuroscience
+  percentage: 85
+  color: info
+
+- name: Artificial Intelligence
+  percentage: 75
+  color: 
+
+- name: Unix
+  percentage: 60
   color: success

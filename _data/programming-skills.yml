@@ -12,4 +12,8 @@
 
 - name: R
   percentage: 55
+  color: light
+
+- name: Javascript
+  percentage: 30
   color: secondary
