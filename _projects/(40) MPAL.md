@@ -5,6 +5,8 @@ image: "/assets/proj/40/timg.jpg"
 description: A python open source application for the analysis of hand motion.
 ---
 
+# Motion Pattern Analysis (MPAL)
+
 A python open source application for the analysis of hand motion that was built during my research assistant job at The Chinese University of Hong Kong.
 
 ## What is MPAL?

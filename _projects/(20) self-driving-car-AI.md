@@ -5,6 +5,8 @@ image: "/assets/proj/20/timg.jpg"
 description: A simulated self-driving car AI coded in Javascript, using p5.js for animation and visualization, TensorFlow for neural network.
 ---
 
+# Self-Driving Car AI
+
 A simulated self-driving car AI coded in Javascript, using p5.js for animation and visualization, TensorFlow for neural network. AI car is trained using an evolutionary algorithm. The car's "brain" consists of an artificial neural network that uses distance sensors placed around the car as inputs and driving directions as outputs. A high fitness score can be achieved by successfully going through checkpoints scattered throughout the track as quickly as possible. A car "fails" if it crashes into obstacles, goes back to the previous checkpoint, or run out of time.
 
 ## Track
