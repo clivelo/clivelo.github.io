@@ -7,8 +7,8 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-an AI enthusiast with a Psychology background from Hong Kong. My goal is to integrate AI with human psychology to create technology that improves people's quality of life.
+Hi I am **{{ site.author.name }}** :wave:<br>
+An AI enthusiast with a Psychology background from Hong Kong. My goal is to integrate AI with human psychology to create technology that improves people's quality of life.
 
 Take a look at my projects and my psychology- and coding-related blogs! Feel free to bookmark this website if you are interested in what I do! All the best! :robot:
 
