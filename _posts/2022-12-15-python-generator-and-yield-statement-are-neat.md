@@ -28,7 +28,7 @@ This is when generators are useful, you simply have to replace the `[]` with `()
 large_list = (i ** 2 for i in range(100000000000))
 ```
 
-With this expression, the values of `i ** 2` are not *generated* yet (i.e., the individual values are not stored in memory). When you need to iterate over `i`, you can extract the values one-by-one by either looping over the generator or using `next()`.
+With this expression, the values of `i ** 2` are not *generated* yet (i.e., the individual values are not stored in memory). When you need to iterate over `i`, you can extract the values one by one by either looping over the generator or using `next()`.
 
 ```python
 # Option 1: Looping over the generator
