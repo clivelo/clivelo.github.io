@@ -99,7 +99,7 @@ with open(“csv_file.csv”, “r”) as file:  # file is a generator
 ```
 
 #### Machine Learning
-This is a scenario that I came across where generator proved to be helpful. I was trying to train a model on TensorFlow that requires two inputs. Without going into too much depth, the input shape of both inputs was huge and the output shape was also huge, and I also had a lot of data. My computer could not handle the amount of data if I simply throw the whole dataset into the model. Besides, I had to format the data in order to fit the model specifications. Long story short, I used generator to feed the data into the model batch by batch. Here is some very rough semi-pseudocode:
+This is a scenario that I came across where generator proved to be helpful. I was trying to train a model on TensorFlow that requires two inputs. Without going into too much depth, the input shapes of both inputs were huge and the output shape was also huge, and I also had a lot of data. My computer could not handle the amount of data if I simply throw the whole dataset into the model. Besides, I had to format the data in order to fit the model specifications. Long story short, I used generator to feed the data into the model batch by batch. Here is some very rough semi-pseudocode:
 
 ```python
 def data_gen(ds1, ds2, batch=8):
