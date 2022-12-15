@@ -10,7 +10,9 @@ weight: 4
 Hi I am **{{ site.author.name }}** :wave:<br>
 An AI enthusiast with a Psychology background from Hong Kong. My goal is to integrate AI with human psychology to create technology that improves people's quality of life.
 
-Take a look at my projects and my psychology- and coding-related blogs! Feel free to bookmark this website if you are interested in what I do! All the best! :robot:
+Take a look at my projects and my psychology- and coding-related blogs! Feel free to bookmark this website if you are interested in what I do! Cheers! :robot:
+
+Download my CV <a href="/assets/CV/CV_CliveLO.pdf" download>HERE</a>.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
