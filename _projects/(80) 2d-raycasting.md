@@ -9,12 +9,13 @@ description: Visual demonstration of the raycasting algorithm.
 
 This is a 2D raycasting visualization built in JavaScript with the p5.js library. Raycasting is a rendering technique that determines the perspective at a given position. A ray is cast at a particiular angle from a source, it calculates the closest intersection to an opaque object. Many perspective games use this technique to render from the character/camera's position what can be seen.
 
-Project inspired by [this video](https://www.youtube.com/watch?v=TOEi6T2mtHo) by The Coding Train.
+Project inspired by this video by The Coding Train.
+{% include elements/video.html id="TOEi6T2mtHo" %}
 
 ## Raycasting Algorithm
 Given two end points of a ray and two end points of a wall, whether a ray and a wall are intersected and their intersection point are determined by the following pseudocode.
 
-``` js
+```js
 // (x1, y1) = first end point of the wall
 // (x2, y2) = second end point of the wall
 // (x3, y3) = first end point of the ray
