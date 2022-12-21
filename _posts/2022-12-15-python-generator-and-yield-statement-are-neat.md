@@ -85,17 +85,22 @@ def gen_func():
 When you are reading a CSV file, you may write something like this.
 
 ```python
-file = open(“csv_file.csv”, “r”)
-content = file.read().split(“\n”)
+file = open("csv_file.csv", "r")
+content = file.read().split("\n")
 file.close()
 ```
 
-But what if your CSV file is too large? The `file.read()` statement reads the whole file and stores it in a variable called `content` all at once. If your file is too large, it’s going to run into memory issues. This is where generator is useful, and Python’s `with` statement returns you with a generator.
+But what if your CSV file is too large? The `file.read()` statement reads the whole file and stores it in a variable called `content` all at once. If your file is too large, it’s going to run into memory issues. This is where generator comes in handy.
 
 ```python
-with open(“csv_file.csv”, “r”) as file:  # file is a generator
-    for line in file:
-        # Do your operations line by line
+def file_gen(fpath):
+    f = open(fpath, "r")
+    for row in f:
+        yield row.strip("\n")
+    f.close()
+
+for line in file_gen("file.txt"):
+    # Do your operations line by line
 ```
 
 #### Machine Learning
