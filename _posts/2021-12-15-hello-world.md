@@ -1,6 +1,6 @@
 ---
 title: Hello World
-tags: [General]
+tags: [Personal]
 style: 
 color: 
 description: Hello world :earth_asia:! Feel free to bookmark this site for updates about my projects!
