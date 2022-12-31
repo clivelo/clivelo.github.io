@@ -1,8 +1,8 @@
 ---
 title: This is my final post
 tags: [Personal]
-style: 
-color: 
+style: border
+color: danger
 description: 
 ---
 

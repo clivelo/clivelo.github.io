@@ -1,8 +1,8 @@
 ---
 title: Hello World
 tags: [Personal]
-style: 
-color: 
+style: border
+color: danger
 description: Hello world :earth_asia:! Feel free to bookmark this site for updates about my projects!
 ---
 
