@@ -3,7 +3,7 @@ title: This is my final post
 tags: [Personal]
 style: border
 color: danger
-description: 
+description: "..."
 ---
 
 … of the year 2022. Let’s hope I write more in 2023.
