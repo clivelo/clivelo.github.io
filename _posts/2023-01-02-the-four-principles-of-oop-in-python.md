@@ -33,14 +33,6 @@ Age: 25
 Age: 7
 ```
 
-{% captures list_items %}
-Inheritance
-Polymorphism
-Encapsulation
-Abstraction
-{% endcapture %}
-{% include elements/list.html title="Four Principles of OOP" type="toc" %}
-
 ## Inheritance
 Inheritance is when one class inherits the attributes and methods of another class, the two classes are also known as child class (or derived class) and parent class (or base class) respectively.
 
