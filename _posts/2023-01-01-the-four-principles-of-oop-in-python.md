@@ -33,6 +33,14 @@ Age: 25
 Age: 7
 ```
 
+{% capture list_items %}
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+{% endcapture %}
+{% include elements/list.html title="Four Principles of OOP" type="toc" %}
+
 ## Inheritance
 Inheritance is when one class inherits the attributes and methods of another class, the two classes are also known as child class (or derived class) and parent class (or base class) respectively.
 
@@ -172,7 +180,7 @@ Output:
 ```
 3
 3.3
-NotImplementedError(f"Type <class 'list'> + Type <class 'list'> is not implemented")
+NotImplementedError: Type <class 'list'> + Type <class 'list'> is not implemented
 ```
 
 Not only does this way of method overloading only validates the first argument, but it also **does not work with a varying number of arguments.** If you really need to work with a varying number of arguments, the best option is likely to just use `*args`.
