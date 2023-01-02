@@ -152,7 +152,7 @@ Output:
 
 But as we mentioned, Python does not support method overloading. As of Python 3.4, the way around it is to import `singledispatch` from the `functools` module. If you are working with class methods (which is what this post is about, but it gets a little confusing so we will explain in terms of normal functions), as of Python 3.8, you should import `singledispatchmethod` instead. **Note that this way of overloading only validates the FIRST argument (or the argument right after `self` or `cls` if using `singledispatchmethod`).**  
 
-The `@singledispatch` decorator is placed on the first method which defines what happens if the first argument data type does not match any of the methods. All subsequent methods require a `[methodName].register([type])` decorator and the method name can simply be an underscore `_`. This defines what happens when the method name is called with the first argument being the specified type.
+The `@singledispatch` decorator is placed on the first method which defines what happens if the first argument data type does not match any of the methods. All subsequent methods require a `methodName.register(type)` decorator and the method name can simply be an underscore `_`. This defines what happens when the method name is called with the first argument being the specified type.
 
 ```python
 from functools import singledispatch
@@ -323,7 +323,7 @@ Output:
 Outside: ATCGGTACTA
 ```
 
-Another way to access private attributes outside of their restricted scope, which I don't necessarily recommend as it defeats the purpose of encapsulation, is to use name mangling. You can access private attributes directly by calling `_[className]__[attributeName]`, one underscore in front of the class name, followed by two underscores and the attribute name.
+Another way to access private attributes outside of their restricted scope, which I don't necessarily recommend as it defeats the purpose of encapsulation, is to use name mangling. You can access private attributes directly by calling `_className__attributeName`, one underscore in front of the class name, followed by two underscores and the attribute name.
 
 ```python
 print("Outside:", h._Animal__dna)
