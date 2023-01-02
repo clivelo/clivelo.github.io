@@ -165,11 +165,13 @@ def add(a, b):
 # Case if the method is called with the first argument being an integer
 @add.register(int)
 def _(a, b):
+    print("Running int method: ", end="")
     return a + b
 
 # Case if the method is called with the first argument being a float
 @add.register(float)
 def _(a, b):
+    print("Running float method: ", end="")
     return a + b
 
 print(add(1, 2))  # int, int
@@ -178,8 +180,8 @@ print(add([1, 2], [3, 4]))  # list, list
 ```
 Output:
 ```
-3
-3.3
+Running int method: 3
+Running float method: 3.3
 NotImplementedError: Type <class 'list'> + Type <class 'list'> is not implemented
 ```
 
