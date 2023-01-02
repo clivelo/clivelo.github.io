@@ -46,7 +46,7 @@ Inheritance is when one class inherits the attributes and methods of another cla
 
 In Java, we would use the `extends` keyword, but in Python, we would simply put the parent class in parentheses when declaring the child class.
 
-Here we observe that the `Human` class and the `Cat` class both share similar attributes and methods. We can therefore create an Animal parent class (yes, humans are animals) that defines the `age` variable. We would then add the parent class when defining the child class by putting the parent class in parentheses, like `class Human(Animal)`. To make sure when instantiating a child object, the parent class `__init__()` is run, we need to call `super().__init__()`. The keyword `super()` indicate the parent class, whereas `.__init__()` calls the `__init__()` method of the parent class.
+Here we observe that the `Human` class and the `Cat` class both share similar attributes and methods. We can therefore create an `Animal` parent class (yes, humans are animals) that defines the `age` variable. We would then add the parent class when defining the child class by putting the parent class in parentheses, like `class Human(Animal)`. To make sure when instantiating a child object, the parent class `__init__()` is run, we need to call `super().__init__()`. The keyword `super()` indicate the parent class, whereas `.__init__()` calls the `__init__()` method of the parent class.
 
 ```python
 # Define parent class
