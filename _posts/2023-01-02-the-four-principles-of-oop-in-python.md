@@ -307,7 +307,7 @@ AttributeError: 'Human' object has no attribute '_Human__dna'
 AttributeError: 'Human' object has no attribute '__dna'
 ```
 
-Note that when the program experiences an error inside the sub-class, it did not keep running the script, but the above output is simply to illustrate what would happen if it kept running. And as you can see, the private attribute is not able to be accessed in a sub-class or on the outside.
+Note that when the program experienced an error inside the sub-class, it did not keep running the script, but the above output is simply to illustrate what would happen if it kept running. And as you can see, the private attribute is not able to be accessed in a sub-class or on the outside.
 
 The proper way to access private (or protected) attributes outside their restricted scope would be to create a public getter method that returns the value of the attributes, and a public setter method if you wish to change the values of these restricted attributes. For example:
 
