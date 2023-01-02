@@ -127,7 +127,7 @@ Method overloading is a type of polymorphism where methods have the same name bu
 
 However, Python does not support method overloading. There is a way around it though, but it is not the same as other languages such as Java or C++. We shall first look at how method overloading is done in Java to understand its concept, then we will look at how we can partially get around it in Python.
 
-Here, we see that we have three methods all named `add`, but they all have different arguments. The first method takes in *two integers* as arguments, the second method takes in *three integers* arguments, and the third method takes in *two doubles* as arguments. When calling the `add` method, depending on the arguments passed, it will call a specific method matching the argument specifications.
+Here, we see that we have three methods all named `add`, but they all have different arguments. The first method takes in *two integers* as arguments, the second method takes in *three integers* as arguments, and the third method takes in *two doubles* as arguments. When calling the `add` method, depending on the arguments passed, it will call a specific method matching the argument specifications.
 
 ```java
 public class overloading {
