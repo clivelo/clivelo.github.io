@@ -246,7 +246,7 @@ Encapsulation is a way to restrict access to some aspects of a class from the ou
 
 There are three different types of access: **public**, **protected**, and **private**.
 
-In Java and C++, specifying the access scope of a class property is straightforward. You simply use the `public`, `protected`, and `private` keywords when declaring a variable or method. In Python, however, you would use underscores `_` in front to indicate the access scope of a class property. One underscore for protected (e.g., `_age`) and two underscores for private (e.g., `__dna`).
+In Java and C++, specifying the access scope of a class property is straightforward. You simply use the `public`, `protected`, or `private` keywords when declaring a variable or method. In Python, however, you would use underscores `_` in front to indicate the access scope of a class property. One underscore for protected (e.g., `_age`) and two underscores for private (e.g., `__dna`).
 
 #### Protected Member
 A protected member is declared with one underscore in front of the variable name (e.g., `_age`). It can only be accessed within its class and all of its sub-classes (child classes), but not outside the class. However, it is not enforced, that is to say, you will not get an error if you try accessing the protected variable outside.
