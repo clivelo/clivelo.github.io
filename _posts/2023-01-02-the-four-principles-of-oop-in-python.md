@@ -8,6 +8,8 @@ description: Object-oriented programming (OOP) is a programming design based on 
 
 Object-oriented programming (OOP) is a programming design based on the idea of objects in real-life. Objects have properties (known as **attributes**) and functions (known as **methods**). This paradigm allows programmers to think about codes as working with real-life objects. The main idea of OOP includes four critical principles, which will be explained in the following post using Python.
 
+This post requires the basic knowledge of writing OOP in Python. Please first read about [the fundmentals of OOP in Python](https://clivelo.me/blog/the-fundamentals-of-oop-in-python) if you have not learned about classes and object yet.
+
 ## OOP
 We will be using the following code as the basis for all the examples below.
 
