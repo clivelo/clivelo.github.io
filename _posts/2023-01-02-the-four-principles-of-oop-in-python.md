@@ -46,7 +46,7 @@ Inheritance is when one class inherits the attributes and methods of another cla
 
 In Java, we would use the `extends` keyword, but in Python, we would simply put the parent class in parentheses when declaring the child class.
 
-Here we observe that the `Human` class and the `Cat` class both share similar attributes and methods. We can therefore create an Animal parent class (yes, humans are animals) that defines the `age` variable. We would then add the parent class when defining the child class by putting the parent class in parentheses, like `class Human(Animal)`. To make sure when instantiating a child object, the parent class `__init__()` is run, we need to call `super().__init__()`. The keyword `super()` indicate the parent class, whereas `.__init__()` calls the `__init__()` method of the parent class.
+Here we observe that the `Human` class and the `Cat` class both share similar attributes and methods. We can therefore create an `Animal` parent class (yes, humans are animals) that defines the `age` variable. We would then add the parent class when defining the child class by putting the parent class in parentheses, like `class Human(Animal)`. To make sure when instantiating a child object, the parent class `__init__()` is run, we need to call `super().__init__()`. The keyword `super()` indicate the parent class, whereas `.__init__()` calls the `__init__()` method of the parent class.
 
 ```python
 # Define parent class
@@ -127,7 +127,7 @@ Method overloading is a type of polymorphism where methods have the same name bu
 
 However, Python does not support method overloading. There is a way around it though, but it is not the same as other languages such as Java or C++. We shall first look at how method overloading is done in Java to understand its concept, then we will look at how we can partially get around it in Python.
 
-Here, we see that we have three methods all named `add`, but they all have different arguments. The first method takes in *two integers* as arguments, the second method takes in *three integers* arguments, and the third method takes in *two doubles* as arguments. When calling the `add` method, depending on the arguments passed, it will call a specific method matching the argument specifications.
+Here, we see that we have three methods all named `add`, but they all have different arguments. The first method takes in *two integers* as arguments, the second method takes in *three integers* as arguments, and the third method takes in *two doubles* as arguments. When calling the `add` method, depending on the arguments passed, it will call a specific method matching the argument specifications.
 
 ```java
 public class overloading {
@@ -152,7 +152,7 @@ Output:
 
 But as we mentioned, Python does not support method overloading. As of Python 3.4, the way around it is to import `singledispatch` from the `functools` module. If you are working with class methods (which is what this post is about, but it gets a little confusing so we will explain in terms of normal functions), as of Python 3.8, you should import `singledispatchmethod` instead. **Note that this way of overloading only validates the FIRST argument (or the argument right after `self` or `cls` if using `singledispatchmethod`).**  
 
-The `@singledispatch` decorator is placed on the first method which defines what happens if the first argument data type does not match any of the methods. All subsequent methods require a `[methodName].register([type])` decorator and the method name can simply be an underscore `_`. This defines what happens when the method name is called with the first argument being the specified type.
+The `@singledispatch` decorator is placed on the first method which defines what happens if the first argument data type does not match any of the methods. All subsequent methods require a `methodName.register(type)` decorator and the method name can simply be an underscore `_`. This defines what happens when the method name is called with the first argument being the specified type.
 
 ```python
 from functools import singledispatch
@@ -165,11 +165,13 @@ def add(a, b):
 # Case if the method is called with the first argument being an integer
 @add.register(int)
 def _(a, b):
+    print("Running int method: ", end="")
     return a + b
 
 # Case if the method is called with the first argument being a float
 @add.register(float)
 def _(a, b):
+    print("Running float method: ", end="")
     return a + b
 
 print(add(1, 2))  # int, int
@@ -178,8 +180,8 @@ print(add([1, 2], [3, 4]))  # list, list
 ```
 Output:
 ```
-3
-3.3
+Running int method: 3
+Running float method: 3.3
 NotImplementedError: Type <class 'list'> + Type <class 'list'> is not implemented
 ```
 
@@ -244,7 +246,7 @@ Encapsulation is a way to restrict access to some aspects of a class from the ou
 
 There are three different types of access: **public**, **protected**, and **private**.
 
-In Java and C++, specifying the access scope of a class property is straightforward. You simply use the `public`, `protected`, and `private` keywords when declaring a variable or method. In Python, however, you would use underscores `_` in front to indicate the access scope of a class property. One underscore for protected (e.g., `_age`) and two underscores for private (e.g., `__dna`).
+In Java and C++, specifying the access scope of a class property is straightforward. You simply use the `public`, `protected`, or `private` keywords when declaring a variable or method. In Python, however, you would use underscores `_` in front to indicate the access scope of a class property. One underscore for protected (e.g., `_age`) and two underscores for private (e.g., `__dna`).
 
 #### Protected Member
 A protected member is declared with one underscore in front of the variable name (e.g., `_age`). It can only be accessed within its class and all of its sub-classes (child classes), but not outside the class. However, it is not enforced, that is to say, you will not get an error if you try accessing the protected variable outside.
@@ -305,7 +307,7 @@ AttributeError: 'Human' object has no attribute '_Human__dna'
 AttributeError: 'Human' object has no attribute '__dna'
 ```
 
-Note that when the program experiences an error inside the sub-class, it did not keep running the script, but the above output is simply to illustrate what would happen if it kept running. And as you can see, the private attribute is not able to be accessed in a sub-class or on the outside.
+Note that when the program experienced an error inside the sub-class, it did not keep running the script, but the above output is simply to illustrate what would happen if it kept running. And as you can see, the private attribute is not able to be accessed in a sub-class or on the outside.
 
 The proper way to access private (or protected) attributes outside their restricted scope would be to create a public getter method that returns the value of the attributes, and a public setter method if you wish to change the values of these restricted attributes. For example:
 
@@ -321,7 +323,7 @@ Output:
 Outside: ATCGGTACTA
 ```
 
-Another way to access private attributes outside of their restricted scope, which I don't necessarily recommend as it defeats the purpose of encapsulation, is to use name mangling. You can access private attributes directly by calling `_[className]__[attributeName]`, one underscore in front of the class name, followed by two underscores and the attribute name.
+Another way to access private attributes outside of their restricted scope, which I don't necessarily recommend as it defeats the purpose of encapsulation, is to use name mangling. You can access private attributes directly by calling `_className__attributeName`, one underscore in front of the class name, followed by two underscores and the attribute name.
 
 ```python
 print("Outside:", h._Animal__dna)
