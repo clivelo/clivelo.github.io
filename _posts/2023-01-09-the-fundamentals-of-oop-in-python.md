@@ -62,7 +62,7 @@ What if a student is only in their first year and they don't have a GPA for the 
 
 What if a semester just ended and we have to update the GPA for all students? We have to carefully determine which semester the student is in, and update the GPA in that list. We also have to update the cGPA accordingly.
 
-Storing data this way, there are just so many things that could go wrong if we are not careful. By using OOP, we create a blueprint of a student, and we can simply make 500 instances of students easily. Everything about a student is stored within a single object variable.
+Storing data this way, there are just so many things that could go wrong if we are not careful. By using OOP, we create a blueprint of a student, then we can simply make 500 instances of students easily. Everything about a student is stored within a single object variable.
 
 ```python
 # Assuming that we have declared the Student class
@@ -71,9 +71,9 @@ students = [student1, student2, student3, ..., student500]
 ```
 
 ## Creating a class
-Let's finally declare a class that represents students in a university. To define a class, we begin with the `class` keyword. Class names are usually title case by convention. For now, we will use `pass` to skip the definition of the class.
+Let's finally declare a class that represents students in a university. To declare a class, we begin with the `class` keyword. Class names are usually title case by convention. For now, we will use `pass` to skip the definition of the class.
 
-Let us also instantiate three students in the main program. Right now, since we have yet to define what a student is like, these three students are very barebones, but they are still different object instances of students.
+Let us also instantiate three students in the main program. Right now, since we have yet to define what a student is like, these three students are very barebones, but they are still different object instances of the `Student` class.
 
 ``` python
 # Declaring a class and skipping the implementation for now
@@ -91,7 +91,7 @@ Now that we have declared a `Student` class and instantiated three students, we 
 
 A constructor is a method that gets called **automatically** right when an object is instantiated. To call the constructor method, we have to define the `__init__()` method in the class.
 
- To define the attributes right at the start, we need to pass the arguments to the `__init__()` method and include those arguments when instantiating the students. We will also need the `self` keyword as the first argument of the method, which will be explained later. Now, the students finally have some attributes!
+ To define the attributes right at the start, we need to declare the `__init__()` method with the attributes as arguments and include those arguments when instantiating the students. We will also need the `self` keyword as the first argument of the method, which will be explained later. Now, the students finally have some attributes!
 
 ```python
 class Student:
@@ -108,9 +108,9 @@ s3 = Student("James", 23, "English Literature")
 ## The `self` keyword
 We lied in our previous section, our `Student` class now does not have any attributes yet. When instantiating the students, we passed the name, age, and major into the class, but we have yet to assign those variables to the object. This is where the `self` keyword is crucial, and you will be seeing this keyword a lot when working with classes, so better get used to it!
 
-The `self` keyword refers to the specific object instance itself. When we type, for example, `self.name`, what we are referring to is the name of **this particular object instance** (fun fact, Java uses the `this` keyword instead). After passing the attributes into the `__init__()` method, we have to assign those arguments to itself.
+The `self` keyword refers to the specific object instance itself. When we type, for example `self.name`, what we are referring to is the name of **this particular object instance** (fun fact, Java uses the `this` keyword instead). After passing the attributes into the `__init__()` method, we have to assign those arguments to itself.
 
-Once we have those attributes, we can get the unique attributes in the main program from each student by doing `objectInstance.Attribute` (e.g., `s1.name` to get the name of object instance `s1`), we can even modify these attributes.
+Once we have those attributes, we can get the unique attributes from each student in the main program by doing `objectInstance.Attribute` (e.g., `s1.name` to get the name of object instance `s1`), we can even modify these attributes.
 
 ```python
 class Student:
@@ -162,7 +162,7 @@ s1 = Student("Tom", 21, "Computer Science")
 s2 = Student("Anna", 19, "Physics")
 s3 = Student("James", 23, "English Literature")
 
-# Calling the method
+# Calling the methods
 s1.introduce()
 s2.introduce()
 s3.introduce()
@@ -177,7 +177,7 @@ My name is James, I am 23 years old, and I am majoring in English Literature.
 My name is Anna, I am 20 years old, and I am majoring in Physics.
 ```
 
-Notice that we have to include `self` as the first argument when declaring the methods (e.g., `def introduce(self)`), even though we are not passing any values (e.g., `s1.introduce()`). Essentially, the student itself is passed as the first argument. When we are doing `s1.introduce()`, the object instance `s1` is automatically passed into the `introduce()` method, with `s1` passed into the `self` variable.
+Notice that we have to include `self` as the first argument when declaring the methods (e.g., `def introduce(self)`), even though we are not passing any values (e.g., `s1.introduce()`). Essentially, the student itself is passed as the first argument. When we are doing `s1.introduce()`, the object instance `s1` is automatically passed into the `self` argument of the `introduce()` method.
 
 ## Class attributes
 Class attributes are attributes that are not unique to any object instance, all classes regardless of their instance would share these attributes. You can think of it as a constant for the whole class.
@@ -218,7 +218,7 @@ Note that we are calling `Student.school_name` instead of `self.school_name` sin
 ## Static method and class method
 Recall that our `introduce()` method needed to access object attributes through the `self` keyword, which is why we have to include `self` as an argument when declaring the method. But what if the method does not need to access or modify any object attributes?
 
-A method that does not access or modify object or class attributes is called a **static method**. Let us implement a simple method `say_hi()` that just prints `hi` to the console. Since this method does not depend on any attributes, we can declare this method as a static method by adding a `@staticmethod` **decorator** above the method declaration, and we will not need to put `self` as an argument. Without going into too much detail, a decorator basically allows us to modify the behavior of a function.
+A method that does not access or modify object or class attributes is called a **static method**. Let us implement a simple `say_hi()` method that just prints `hi` to the console. Since this method does not depend on any attributes, we can declare this method as a **static method** by adding an `@staticmethod` **decorator** above the method declaration, and we will not need to put `self` as an argument. Without going into too much detail, a decorator basically allows us to modify the behavior of a function.
 
 ```python
 class Student:
