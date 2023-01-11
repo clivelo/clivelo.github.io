@@ -87,11 +87,11 @@ s3 = Student()
 ```
 
 ## Constructor
-Now that we have declared a `Student` class and instantiated three students, we want the students to have the following attributes: name, age, and major. Importantly, we want these attributes to be initialized in the beginning. Here is where we would use a constructor.
+Now that we have declared a `Student` class and instantiated three students, we want the students to have the following attributes: `name`, `age`, and `major`. Importantly, we want these attributes to be initialized **from the beginning**. Here is where we would use a **constructor**.
 
-A constructor is a method that gets called **automatically** right when an object is instantiated. To call the constructor method, we have to define the `__init__()` method in the class.
+A constructor is a method that gets called **automatically** right when an object is instantiated. In Python, to define the constructor, we would define the `__init__()` method inside the class.
 
- To define the attributes right at the start, we need to declare the `__init__()` method with the attributes as arguments and include those arguments when instantiating the students. We will also need the `self` keyword as the first argument of the method, which will be explained later. Now, the students finally have some attributes!
+To pass in the `name`, `age`, and `major` attributes right from the start, our `__init__()` method will need to accept these variables as arguments. Also, we have to include those variables when instantiating an object. Note below that we added a `self` variable as the first argument of the `__init__()` method, this will be explained in the next section. Now, the students finally have some attributes!
 
 ```python
 class Student:
