@@ -2,11 +2,14 @@
   percentage: 95
   color: danger
 
-- name: MATLAB
+- name: Java
+  percentage: 75
+
+- name: MySQL
   percentage: 70
   color: info
 
-- name: MySQL
+- name: MATLAB
   percentage: 65
   color: success
 
