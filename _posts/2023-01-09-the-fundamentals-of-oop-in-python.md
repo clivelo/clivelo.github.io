@@ -106,7 +106,7 @@ s3 = Student("James", 23, "English Literature")
 ```
 
 ## The `self` keyword
-We lied in our previous section, our `Student` class now does not have any attributes yet. When instantiating the students, we passed the name, age, and major into the class, but we have yet to assign those variables to the object. This is where the `self` keyword is crucial, and you will be seeing this keyword a lot when working with classes, so better get used to it!
+We lied in our previous section, our `Student` class now does not have any attributes yet. When instantiating the students, we passed the `name`, `age`, and `major` into the class, but we have yet to assign those variables to the object. This is where the `self` keyword is crucial, and you will be seeing this keyword a lot when working with classes, so better get used to it!
 
 The `self` keyword refers to the specific object instance itself. When we type, for example `self.name`, what we are referring to is the name of **this particular object instance** (fun fact, Java uses the `this` keyword instead). After passing the attributes into the `__init__()` method, we have to assign those arguments to itself.
 
