@@ -10,11 +10,11 @@
   percentage: 90
   color: 
 
-- name: Neuroscience
-  percentage: 85
+- name: Artificial Intelligence
+  percentage: 80
   color: 
 
-- name: Artificial Intelligence
+- name: Neuroscience
   percentage: 75
   color: info
 
