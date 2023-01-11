@@ -4,13 +4,14 @@
 
 - name: Java
   percentage: 75
-
-- name: MySQL
-  percentage: 70
   color: info
 
-- name: MATLAB
+- name: MySQL
   percentage: 65
+  color: success
+
+- name: MATLAB
+  percentage: 60
   color: success
 
 - name: R
