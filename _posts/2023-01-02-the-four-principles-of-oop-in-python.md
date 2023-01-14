@@ -8,7 +8,7 @@ description: Object-oriented programming (OOP) is a programming design based on 
 
 Object-oriented programming (OOP) is a programming design based on the idea of objects in real-life. Objects have properties (known as **attributes**) and functions (known as **methods**). This paradigm allows programmers to think about codes as working with real-life objects. The main idea of OOP includes four critical principles, which will be explained in the following post using Python.
 
-This post requires the basic knowledge of writing OOP in Python. Please first read about [the fundmentals of OOP in Python](https://clivelo.me/blog/the-fundamentals-of-oop-in-python) if you have not learned about classes and object yet.
+This post requires the basic knowledge of writing OOP in Python. Please first read about [the fundamentals of OOP in Python](https://clivelo.me/blog/the-fundamentals-of-oop-in-python) if you have not learned about classes and objects yet.
 
 ## OOP
 We will be using the following code as the basis for all the examples below.
@@ -48,7 +48,7 @@ Inheritance is when one class inherits the attributes and methods of another cla
 
 In Java, we would use the `extends` keyword, but in Python, we would simply put the parent class in parentheses when declaring the child class.
 
-Here we observe that the `Human` class and the `Cat` class both share similar attributes and methods. We can therefore create an `Animal` parent class (yes, humans are animals) that defines the `age` variable. We would then add the parent class when defining the child class by putting the parent class in parentheses, like `class Human(Animal)`. To make sure when instantiating a child object, the parent class `__init__()` is run, we need to call `super().__init__()`. The keyword `super()` indicate the parent class, whereas `.__init__()` calls the `__init__()` method of the parent class.
+Here we observe that the `Human` class and the `Cat` class both share similar attributes and methods. We can therefore create an `Animal` parent class (yes, humans are animals) that defines the `age` variable. We would then add the parent class when defining the child class by putting the parent class in parentheses, like `class Human(Animal)`. To make sure when instantiating a child object, the parent class `__init__()` is run, we need to call `super().__init__()`. The keyword `super()` indicates the parent class, whereas `.__init__()` calls the `__init__()` method of the parent class.
 
 ```python
 # Define parent class
@@ -340,7 +340,7 @@ Abstraction is probably the OOP principle that is the most difficult to understa
 
 In Java and C++, we have a keyword for declaring abstract methods. We would use `abstract` in Java and we would use `virtual` in C++. However, Python does not have native capabilities for doing abstraction, as such, we will have to import the `ABC` and `abstractmethod` from the `abc` module. The `abc` stands for Abstract Base Classes.
 
-With our abstract `WashingMachine` class, we need to inherit the `ABC` class to declare that we will be using the attributes and methods from the `ABC` class. On the abstract method `wash`, we need to put an `@abstractmethod` decorator to indicate that this method is an abstract method. Then, we define two child classes of `WashingMachine` that have their own unique implementation of the `wash` method. It is important to note that when we define a child class of an abstract parent class, all abstract methods must be defined and implemented in the child class, or a `TypeError` will be thrown. This will be illustrated in the example below with a third child class.
+With our abstract `WashingMachine` class, we need to inherit the `ABC` class to declare that we will be using the attributes and methods from the `ABC` class. Before the abstract method `wash`, we need to put an `@abstractmethod` decorator to indicate that this method is an abstract method. Then, we define two child classes of `WashingMachine` that have their own unique implementation of the `wash` method. It is important to note that when we define a child class of an abstract parent class, all abstract methods must be defined and implemented in the child class, or a `TypeError` will be thrown. This will be illustrated in the example below with a third child class.
 
 Let us implement the washing machine example.
 
