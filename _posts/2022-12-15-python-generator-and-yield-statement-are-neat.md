@@ -49,14 +49,18 @@ Output:
 **Option 2: Using next()**
 ```python
 print(next(large_list))  # 0
-
 print(next(large_list))  # 1
-
 print(next(large_list))  # 4
-
 print(next(large_list))  # 9
-
 print(next(large_list))  # 16
+```
+Output:
+```
+0
+1
+4
+9
+16
 ```
 
 #### Generator Function
