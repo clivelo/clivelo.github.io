@@ -30,17 +30,24 @@ large_list = (i ** 2 for i in range(100000000000))
 
 With this expression, the values of `i ** 2` are not *generated* yet (i.e., the individual values are not stored in memory). When you need to iterate over `i`, you can extract the values one by one by either looping over the generator or using `next()`.
 
+**Option 1: Looping over the generator**
 ```python
-# Option 1: Looping over the generator
-
 for val in large_list:
     # You can do whatever operation with the value you want
     print(val)  # 0, 1, 4, 9, 16, etc.
 ```
+Output:
+```
+0
+1
+4
+9
+16
+...
+```
 
+**Option 2: Using next()**
 ```python
-# Option 2: Using next()
-
 print(next(large_list))  # 0
 
 print(next(large_list))  # 1
