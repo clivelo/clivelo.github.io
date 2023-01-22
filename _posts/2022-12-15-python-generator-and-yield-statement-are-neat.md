@@ -36,7 +36,6 @@ for val in large_list:
     # You can do whatever operation with the value you want
     print(val)  # 0, 1, 4, 9, 16, etc.
 ```
-Output:
 ```
 0
 1
@@ -54,7 +53,6 @@ print(next(large_list))  # 4
 print(next(large_list))  # 9
 print(next(large_list))  # 16
 ```
-Output:
 ```
 0
 1

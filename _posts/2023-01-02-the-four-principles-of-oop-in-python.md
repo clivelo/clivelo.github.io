@@ -29,7 +29,6 @@ print("Age:", h.age)
 c = Cat(7)
 print("Age:", c.age)
 ```
-Output:
 ```
 Age: 25
 Age: 7
@@ -75,7 +74,6 @@ print("Age:", h.age)
 c = Cat(7)
 print("Age:", c.age)
 ```
-Output:
 ```
 Age: 25
 Age: 7
@@ -116,7 +114,6 @@ c = Cat(7)
 # Calling the speak() method
 c.speak()
 ```
-Output:
 ```
 Hi
 Meow
@@ -145,7 +142,6 @@ public class overloading {
     }
 }
 ```
-Output:
 ```
 3
 6
@@ -180,7 +176,6 @@ print(add(1, 2))  # int, int
 print(add(1.1, 2.2))  # float, float
 print(add([1, 2], [3, 4]))  # list, list
 ```
-Output:
 ```
 Running int method: 3
 Running float method: 3.3
@@ -236,7 +231,6 @@ c.speak()
 s = Sloth(13)
 s.speak()
 ```
-Output:
 ```
 Hi
 Meow
@@ -272,7 +266,6 @@ h = Human(25, "Software Developer")
 # Able to (but not supposed to) access outside
 print("Outside (not supposed to be accessed, but not enforced):", h._age)
 ```
-Output:
 ```
 Inside the class: 25
 Inside the sub-class: 25
@@ -302,7 +295,6 @@ h = Human(25, "ATCGGTACTA", "Software Developer")
 # Error when accessing outside
 print("Outside:", h.__dna)
 ```
-Output:
 ```
 Inside the class: ATCGGTACTA
 AttributeError: 'Human' object has no attribute '_Human__dna'
@@ -320,7 +312,6 @@ The proper way to access private (or protected) attributes outside their restric
 
 print("Outside:" h.get_dna())
 ```
-Output:
 ```
 Outside: ATCGGTACTA
 ```
@@ -330,7 +321,6 @@ Another way to access private attributes outside of their restricted scope, whic
 ```python
 print("Outside:", h._Animal__dna)
 ```
-Output:
 ```
 Outside: ATCGGTACTA
 ```
@@ -387,7 +377,6 @@ w2.wash()
 
 w3 = Whirlpool()  # Error when instantiated
 ```
-Output:
 ```
 1. Flush with 100 degrees F water
 2. Add detergents with 160 degrees F water

@@ -133,7 +133,6 @@ print(f"s3's name is {s3.name}, they are {s3.age} years old, they are majoring i
 s2.age = 20
 print(f"s2's name is {s2.name}, they are {s2.age} years old, they are majoring in {s2.major}.")
 ```
-Output:
 ```
 s1's name is Tom, they are 21 years old, they are majoring in Computer Science.
 s2's name is Anna, they are 19 years old, they are majoring in Physics.
@@ -169,7 +168,6 @@ s3.introduce()
 s2.grow()
 s2.introduce()
 ```
-Output:
 ```
 My name is Tom, I am 21 years old, and I am majoring in Computer Science.
 My name is Anna, I am 19 years old, and I am majoring in Physics.
@@ -206,7 +204,6 @@ s1.introduce()
 s2.introduce()
 s3.introduce()
 ```
-Output:
 ```
 My name is Tom, I am 21 years old, I am studying at MIT, and I am majoring in Computer Science.
 My name is Anna, I am 19 years old, I am studying at MIT, and I am majoring in Physics.
@@ -243,7 +240,6 @@ s3 = Student("James", 23, "English Literature")
 
 s1.say_hi()
 ```
-Output:
 ```
 hi
 ```
@@ -280,7 +276,6 @@ s3 = Student("James", 23, "English Literature")
 # passed into the method as cls
 s1.say_school_name()
 ```
-Output:
 ```
 I am studying at MIT.
 ```

@@ -18,7 +18,6 @@ def square(num):
 print(square(5))
 print(square(7))
 ```
-Output
 ```
 25
 49
@@ -32,7 +31,6 @@ square = lambda num: num ** 2
 print(square(5))
 print(square(7))
 ```
-Output
 ```
 25
 49
@@ -44,7 +42,6 @@ add_three = lambda a, b, c: a + b + c
 
 print(add_three(1, 4, 5))
 ```
-Output
 ```
 10
 ```
@@ -63,7 +60,6 @@ print(add_one(2, 5, lambda x, y: x + y))
 print(add_one(2, 5, lambda x, y: x - y))
 print(add_one(2, 5, lambda x, y: x * y))
 ```
-Output
 ```
 8
 -2
@@ -103,7 +99,6 @@ val = [("Jack", 5), ("Mark", 8), ("Tim", 2)]
 print(max(val, key=lambda x: x[1]))
 print(min(val, key=lambda x: x[1]))
 ```
-Output
 ```
 ("Mark", 8)
 ("Tim", 2)
@@ -118,7 +113,6 @@ The `map` function in Python takes in two parameters, a function and an iterable
 val = [1, 2, 3, 4, 5, 6, 7]
 print(list(map(lambda x: x * 2, val)))
 ```
-Output
 ```
 [2, 4, 6, 8, 10, 12, 14]
 ```
@@ -130,7 +124,6 @@ The `filter` function in Python takes in two parameters, a function and an itera
 val = [1, 2, 3, 4, 5, 6, 7]
 print(list(filter(lambda x: x > 4, val)))
 ```
-Output
 ```
 [5, 6, 7]
 ```
@@ -144,7 +137,6 @@ from functools import reduce
 val = [1, 2, 3, 4, 5, 6, 7]
 print(reduce(lambda x, y: x + y, val))
 ```
-Output
 ```
 28
 ```
