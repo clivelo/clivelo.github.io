@@ -88,7 +88,7 @@ print(add_one(2, 5, subtract))
 print(add_one(2, 5, multiply))
 ```
 
-Obviously, the above example wasn't very practical. The real practical use case for lambda functions is when you are using some built-in functions or functions from other modules where they take a function as an argument. Do note that this is only coming from my perspective as a data guy. If you ask people from other fields, they may provide other important use cases. Anyway, let us go through a few lambda function use cases that I have personally found useful.
+Obviously, the above example wasn't very practical. The real practical use case for lambda functions is when you are using some **built-in functions or functions from other modules where they take a function as an argument**. Do note that this is only coming from my perspective as a data guy. If you ask people from other fields, they may provide other important use cases. Anyway, let us go through a few lambda function use cases that I have personally found useful.
 
 ## Use case
 #### The max and min functions
@@ -105,6 +105,17 @@ print(min(val, key=lambda x: x[1]))
 ```
 
 We are evaluating the maximum and minimum based on the second index, and importantly, we are returning the whole tuple as the result.
+
+#### The sorted function
+The `sorted` function in Python returns a sorted list of the iterable. If we were sorting a list of integers, this function would be pretty straight forward. But sometimes, our variable may have more dimensions or it's a more complicated data structure, so we may wish to sort everything in a particular way. In this case, we can use the `key=` parameter and specify a lambda function that states how we wish to sort this iterable.
+
+```python
+val = [("Jack", 5), ("Mark", 8), ("Tim", 2)]
+print(sorted(val, key=lambda x: x[1]))
+```
+```
+[('Tim', 2), ('Jack', 5), ('Mark', 8)]
+```
 
 #### The map function
 The `map` function in Python takes in two parameters, a function and an iterable. It applies the passed-in function to each value in the iterable and returns a map object. Here, we are applying the `x * 2` function to each of the values in the list.
@@ -142,4 +153,4 @@ print(reduce(lambda x, y: x + y, val))
 ```
 
 ## Conclusion
-Hope this demystifies the elusive lambda function. It can be confusing to understand at first, but it is very helpful in some particular cases.
+Hope this demystifies the elusive lambda function. It can be confusing to understand at first, but when you encounter those particular cases, it becomes incredibly useful.
