@@ -95,7 +95,7 @@ print(add_one(2, 5, multiply))
 Obviously, the above example wasn't very practical. The real practical use case for lambda functions is when you are using some built-in functions or functions from other modules where they take a function as an argument. Do note that this is only coming from my perspective as a data guy. If you ask people from other fields, they may provide other important use cases. Anyway, let us go through a few lambda function use cases that I have personally found useful.
 
 ## Use case
-#### `max` and `min`
+#### The `max` and `min` functions
 The `max` and `min` functions in Python find the maximum and minimum values in a list of values. Now, what if we want to find the maximum or minimum of a list of tuples based on its second index? We would need to make use of the `key=` parameter. Here, we can use a lambda function to determine what we are basing the maximum or minimum on.
 
 ```python
@@ -111,7 +111,7 @@ Output
 
 We are evaluating the maximum and minimum based on the second index, and importantly, we are returning the whole tuple as the result.
 
-#### `map`
+#### The `map` function
 The `map` function in Python takes in two parameters, a function and an iterable. It applies the passed-in function to each value in the iterable and returns a map object. Here, we are applying the `x * 2` function to each of the values in the list.
 
 ```python
@@ -123,7 +123,7 @@ Output
 [2, 4, 6, 8, 10, 12, 14]
 ```
 
-#### `filter`
+#### The `filter` function
 The `filter` function in Python takes in two parameters, a function and an iterable. The function evaluates a boolean expression that determines whether each value in the iterable should be kept or filtered. Here, we are only keeping values in the list that are larger than 4.
 
 ```python
@@ -135,7 +135,7 @@ Output
 [5, 6, 7]
 ```
 
-#### `functools.reduce`
+#### The `reduce` function in `functools`
 The `reduce` function in the `functools` module is another great opportunity to use a lambda function. The `reduce` method takes in a lambda function and an iterator. The lambda function should take in two arguments and return what happens to those two arguments. You can think of the `reduce` function as a recursion. The first two values in the iterator are first put into the lambda function, the returned result and the third value are put into the lambda function again, the returned result from that and the fourth value are put into the lambda function, and so on and so forth.
 
 ```python
