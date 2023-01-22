@@ -107,7 +107,7 @@ print(min(val, key=lambda x: x[1]))
 We are evaluating the maximum and minimum based on the second index, and importantly, we are returning the whole tuple as the result.
 
 #### The sorted function
-The `sorted` function in Python returns a sorted list of the iterable. If we were sorting a list of integers, this function would be pretty straight forward. But sometimes, our variable may have more dimensions or it's a more complicated data structure, so we may wish to sort everything in a particular way. In this case, we can use the `key=` parameter and specify a lambda function that states how we wish to sort this iterable.
+The `sorted` function in Python returns a sorted list of the iterable. If we were sorting a list of integers, this function would be pretty straightforward. But sometimes, our variable may have more dimensions or it's a more complicated data structure, so we may wish to sort everything in a particular way. In this case, we can use the `key=` parameter and specify a lambda function that states how we wish to sort this iterable.
 
 ```python
 val = [("Jack", 5), ("Mark", 8), ("Tim", 2)]
