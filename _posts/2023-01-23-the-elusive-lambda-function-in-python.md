@@ -6,7 +6,7 @@ color: info
 description: Let's talk about lambda functions—one of the more elusive features of Python.
 ---
 
-Let's talk about **lambda functions**—one of the more elusive features of Python.
+Let's talk about **lambda functions**—one of the more elusive features of Python. It's so elusive that I didn't fully understand/never really used it in my first 4 years of Python coding.
 
 ## What is a lambda function?
 A lambda function is an **anonymous function**. Anonymous function just means a function that doesn't have a name. Typically, we define a function like below in Python. This function named `square()` takes in a number and returns the squared value of that number.
