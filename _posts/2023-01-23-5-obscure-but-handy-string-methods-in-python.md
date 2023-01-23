@@ -129,7 +129,8 @@ for i in range(2000):
 ```
 static str.maketrans(x, [y, [z]])
 
-x: Required. If only one parameter is specified, this has to be a dictionary. If two or more parameters are specified, this parameter has to be a string
+x: Required. If only one parameter is specified, this has to be a dictionary. 
+   If two or more parameters are specified, this parameter has to be a string
 y: Optional. A string with the same length as parameter x
 z: Optional. A string describing which characters to remove from the original string
 ```
