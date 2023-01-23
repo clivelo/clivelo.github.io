@@ -106,7 +106,7 @@ str.zfill(width)
 
 width: Required. The length of the returned string
 ```
-The `zfill` method is a great way to **add leading zeros to your string**. The `width` parameter determines the total width of the string including the leading zeros. If your string has a length of 3 and you specify the `width` to be 5, it would add 2 zeros in front. Note that if your string has a minus sign in front, it will include the minus sign for the width, and the zeroes will be pad *after* the minus sign.
+The `zfill` method is a great way to **add leading zeros to your string**. The `width` parameter determines the total width of the string including the leading zeros. If your string has a length of 3 and you specify the `width` to be 5, it would add 2 zeros in front. Note that if your string has a minus sign in front, it will include the minus sign for the width, and the zeroes will be padded *after* the minus sign.
 
 I find this method useful when I want a consistent length of file names and I'm exporting loads of files to my filesystem (e.g., 00001.txt, 00002.txt, 00003.txt, etc). Or if I need consistent length in a column of my data.
 
