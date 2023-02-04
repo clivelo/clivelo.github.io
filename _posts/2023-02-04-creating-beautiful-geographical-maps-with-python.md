@@ -188,7 +188,7 @@ Here, I have a pandas DataFrame of the U.S. domestic flight records from Jan 201
 
 Our goal here is to plot each airport as a dot on the map and vary the size of the dots based on the number of flights departing from the airport.
 
-We need to convert the longitude and latitude into the `x` and `y` coordinates for the plot. We need to use the map object that we created to convert the longitude and latitude into the appropriate plot coordinates.
+First, we need to convert the longitude and latitude into the `x` and `y` coordinates for the plot. To this end, we should use the map object that we created to convert the longitude and latitude into the appropriate plot coordinates.
 
 ```python
 # Converting the longitude and latitude into x and y coordinates
