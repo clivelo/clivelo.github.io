@@ -192,7 +192,7 @@ First, we need to convert the longitude and latitude into the `x` and `y` coordi
 
 ```python
 # Converting the longitude and latitude into x and y coordinates
-x, y = map(long, lat)
+x, y = map(lon, lat)
 ```
 
 To plot the coordinates, we can call the `plot` method with the map object. We may indicate plot arguments to stylize the plot in a similar way to Matplotlib.
