@@ -23,7 +23,7 @@ Optional:
 ## Building a basic map
 First, let's create a `Basemap` object instance. We can specify some useful constructor arguments to configure the map.
 
-We can specify the resolution of the coastlines and lakes using the `resolution` argument. Default to `c` for crude, `l` for low, `i` for intermediate, 'h' for high, and 'f' for full.
+We can specify the resolution of the coastlines and lakes using the `resolution` argument. Default to `c` for crude, `l` for low, `i` for intermediate, `h` for high, and `f` for full.
 
 We can specify the projection of the map using the `projection` argument, which describes what transformations to employ to represent the two-dimensional curved surface of the globe on a plane. The [manual](https://matplotlib.org/basemap/users/mapsetup.html) shows a list of projections available.
 
