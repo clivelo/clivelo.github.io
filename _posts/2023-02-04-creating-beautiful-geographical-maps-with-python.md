@@ -245,7 +245,7 @@ plt.show()
 
 <img src="/assets/post/2023-02-05-creating-beautiful-geographical-maps-with-python/010.png" title="Map" alt="Map">
 
-## Plotting the number of flights between airports
+#### Plotting the number of flights between airports
 Here, I have a pandas DataFrame of the U.S. domestic flight records from Jan 2019 to Mar 2019. The DataFrame consists of the flight origin and destination airport IATA codes (a unique identifier of the airports), the flight origin and destination latitude and longitude, and the number of flights that flew between the two airports in these three months.
 
 <img src="/assets/post/2023-02-05-creating-beautiful-geographical-maps-with-python/011.jpg" title="Data" alt="Data">
