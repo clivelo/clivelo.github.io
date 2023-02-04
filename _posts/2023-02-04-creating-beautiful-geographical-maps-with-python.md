@@ -6,7 +6,7 @@ color: info
 description: Sometimes, you want to plot your data on a world map. In Python, we can make use of Basemap from the Matplotlib toolkits to do just that!
 ---
 
-Sometimes, you want to plot your data on a world map. In Python, we can make use of Basemap from the Matplotlib toolkits to do just that!
+Sometimes, you want to plot your data on a world map. In Python, we can make use of `Basemap` from the Matplotlib toolkits to do just that!
 
 This post will give you a basic rundown of some of the basic functions to get you started.
 
